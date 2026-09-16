@@ -214,6 +214,18 @@
   border-radius: var(--r-input);
   max-width: calc(100% - 2rem);
 }
+/* Homepage hero: text and image inline at matched height, search card underneath */
+.hero--home .hero__grid { align-items: stretch; }
+.hero--home .hero__content { display: flex; flex-direction: column; justify-content: center; max-width: none; }
+.hero--home .hero__media { aspect-ratio: 4 / 3; }
+.hero--home .hero__media picture, .hero--home .hero__media img { width: 100%; height: 100%; }
+.hero__search { margin-top: clamp(1.5rem, 3vw, 2.5rem); }
+.hero__search .search-card__grid { grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 720px) { .hero__search .search-card__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 900px) {
+  .hero--home .hero__grid { grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr); }
+  .hero--home .hero__media { aspect-ratio: auto; min-height: 30rem; height: 100%; }
+}
 .hero--page { padding-block: clamp(3rem, 7vw, 5.5rem) clamp(2rem, 5vw, 3.5rem); }
 .hero--page .lead { margin-top: 1.25rem; }
 .hero--page .answer { margin-top: 1.25rem; }

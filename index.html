@@ -92,15 +92,24 @@
 <main id="main">
 
   <!-- 1. Hero -->
-  <section class="hero" aria-labelledby="hero-title">
+  <section class="hero hero--home" aria-labelledby="hero-title">
     <div class="container hero__grid">
       <div class="hero__content">
         <p class="eyebrow eyebrow--ember">UK therapist directory</p>
         <h1 class="h1" id="hero-title">A therapist you can <em>actually</em> check.</h1>
         <p class="lead">Every therapist, supervisor and coach listed here has had their registration, insurance and supervision checked by a person. The checks are printed on the profile. There are no reviews, no ratings and nothing is ranked.</p>
-        <form class="search-card" data-search-launcher action="./find-a-therapist/" method="get" style="margin-top:2rem" aria-labelledby="search-title">
+      </div>
+      <div class="hero__media hero__media--drift">
+        <picture>
+          <source type="image/webp" srcset="./assets/images/hero-room-plants-480.webp 480w, ./assets/images/hero-room-plants-800.webp 800w, ./assets/images/hero-room-plants-1100.webp 1100w" sizes="(min-width: 900px) 45vw, 100vw">
+          <img src="./assets/images/hero-room-plants-1100.jpg" srcset="./assets/images/hero-room-plants-480.jpg 480w, ./assets/images/hero-room-plants-800.jpg 800w, ./assets/images/hero-room-plants-1100.jpg 1100w" sizes="(min-width: 900px) 45vw, 100vw" alt="A bright, plant-filled room where two people sit apart on a sofa, talking" width="1100" height="700" loading="eager" fetchpriority="high" decoding="async">
+        </picture>
+      </div>
+    </div>
+    <div class="container hero__search">
+        <form class="search-card" data-search-launcher action="./find-a-therapist/" method="get" aria-labelledby="search-title">
           <p class="eyebrow" id="search-title">Search verified therapists</p>
-          <div class="search-card__grid search-card__grid--3">
+          <div class="search-card__grid search-card__grid--3 hero__search-grid">
             <div class="form-field">
               <label class="form-field__label" for="home-location">Where</label>
               <select class="form-control form-control--select" id="home-location" name="location"><option value="">Anywhere in the UK</option></select>
@@ -119,14 +128,6 @@
             <p class="search-card__hint">Nothing you type here is stored.</p>
           </div>
         </form>
-      </div>
-      <div class="hero__media hero__media--drift">
-        <picture>
-          <source type="image/webp" srcset="./assets/images/hero-room-plants-480.webp 480w, ./assets/images/hero-room-plants-800.webp 800w, ./assets/images/hero-room-plants-1100.webp 1100w" sizes="(min-width: 900px) 45vw, 100vw">
-          <img src="./assets/images/hero-room-plants-1100.jpg" srcset="./assets/images/hero-room-plants-480.jpg 480w, ./assets/images/hero-room-plants-800.jpg 800w, ./assets/images/hero-room-plants-1100.jpg 1100w" sizes="(min-width: 900px) 45vw, 100vw" alt="A bright, plant-filled room where two people sit apart on a sofa, talking" width="1100" height="700" loading="eager" fetchpriority="high" decoding="async">
-        </picture>
-        <p class="hero__caption">A room, not a clinic.</p>
-      </div>
     </div>
   </section>
 
