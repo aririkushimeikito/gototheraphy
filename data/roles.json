@@ -1,0 +1,19 @@
+{
+  "_notice": "Per-role verification rules from Design System v2.0, Part Six. The badge text is conditional on role. Unregulated roles print the caveat on the profile itself, never only in a tooltip. Holding two roles means meeting both standards.",
+  "caveat": "This is not a regulated profession in the UK, so there is no register to check.",
+  "records": [
+    { "slug": "therapist", "name": "Therapist", "plural": "Therapists", "regulated": true, "directory": "/find-a-therapist/", "checks": ["registration", "insurance", "supervision", "identity"], "badge": "Register, insurance and supervision checked" },
+    { "slug": "supervisor", "name": "Supervisor", "plural": "Supervisors", "regulated": true, "directory": "/supervisors/", "checks": ["registration", "insurance", "identity", "supervision-training"], "badge": "Register, insurance and supervision training checked" },
+    { "slug": "coach", "name": "Coach", "plural": "Coaches", "regulated": false, "directory": "/coaches/", "checks": ["insurance", "identity"], "badge": "Insurance and identity checked" },
+    { "slug": "trainer", "name": "Trainer", "plural": "Trainers", "regulated": true, "directory": "/trainers/", "checks": ["registration", "insurance", "identity"], "badge": "Register and insurance checked" },
+    { "slug": "training-provider", "name": "Training provider", "plural": "Training providers", "regulated": false, "directory": "/training-providers/", "checks": ["accreditation", "insurance", "identity"], "badge": "Course accreditation and insurance checked" }
+  ],
+  "checkLabels": {
+    "registration": "Professional register",
+    "insurance": "Insurance",
+    "supervision": "Supervision",
+    "identity": "Identity",
+    "supervision-training": "Supervision training",
+    "accreditation": "Course accreditation"
+  }
+}

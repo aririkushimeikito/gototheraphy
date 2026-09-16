@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>Log In | Gototherapy</title>
+<meta name="description" content="Log in to your Gototherapy member account to update your profile, fees and availability, and to keep the details behind your verification current.">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://gototherapy.co.uk/login/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Gototherapy">
+<meta property="og:title" content="Log In | Gototherapy">
+<meta property="og:description" content="Log in to your Gototherapy member account to update your profile, fees and availability, and to keep the details behind your verification current.">
+<meta property="og:url" content="https://gototherapy.co.uk/login/">
+<meta name="twitter:card" content="summary">
+<!-- @chrome:head -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#F5F2EC">
+<link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Schibsted+Grotesk:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../assets/css/variables.css">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/layout.css">
+<link rel="stylesheet" href="../assets/css/components.css">
+<link rel="stylesheet" href="../assets/css/pages.css">
+<link rel="stylesheet" href="../assets/css/responsive.css">
+<script type="module" src="../assets/js/main.js"></script>
+<!-- /@chrome:head -->
+</head>
+<body data-page="login">
+<!-- @chrome:header -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="../" aria-label="Gototherapy home">
+      <span class="brand__mark" aria-hidden="true">goto<span>therapy</span></span>
+      <span class="brand__tag" title="Temporary wordmark until the final logo is supplied">temp logo</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="../how-it-works/">How it works</a></li>
+        <li><a class="nav__link" href="../how-we-verify/">How we verify</a></li>
+        <li><a class="nav__link" href="../online-counselling/">Online counselling</a></li>
+        <li><a class="nav__link" href="../stories/">Stories</a></li>
+        <li><a class="nav__link" href="../about/">About</a></li>
+      </ul>
+    </nav>
+    <div class="site-header__actions">
+      <a class="button button--quiet" href="../login/">Log in</a>
+      <a class="button button--ghost" href="../join/">Join as a professional</a>
+      <a class="button button--primary" href="../find-a-therapist/">Find a therapist</a>
+    </div>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+      <svg class="menu-toggle__icon menu-toggle__icon--open icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <svg class="menu-toggle__icon menu-toggle__icon--close icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      <span>Menu</span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav aria-label="Mobile">
+      <ul class="mobile-menu__list">
+        <li><a class="mobile-menu__link" href="../find-a-therapist/">Find a therapist</a></li>
+        <li><a class="mobile-menu__link" href="../how-it-works/">How it works</a></li>
+        <li><a class="mobile-menu__link" href="../how-we-verify/">How we verify</a></li>
+        <li><a class="mobile-menu__link" href="../online-counselling/">Online counselling</a></li>
+        <li><a class="mobile-menu__link" href="../stories/">Stories</a></li>
+        <li><a class="mobile-menu__link" href="../about/">About</a></li>
+        <li><a class="mobile-menu__link" href="../pricing/">For professionals</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu__actions">
+      <a class="button button--primary" href="../find-a-therapist/">Find a therapist</a>
+      <a class="button button--ghost" href="../join/">Join as a professional</a>
+      <a class="button button--ghost" href="../login/">Log in</a>
+    </div>
+    <p class="mobile-menu__foot">If you need help right now, see <a href="../crisis/">urgent support</a>.</p>
+  </div>
+</header>
+<!-- /@chrome:header -->
+<main id="main">
+  <section class="auth">
+    <div class="container">
+      <div class="auth__box">
+        <p class="eyebrow">Member account</p>
+        <h1 class="h2">Log in</h1>
+        <p class="lead">For professionals listed on Gototherapy. People looking for a therapist do not need an account.</p>
+        <form class="auth__form" data-login-form action="../account/" method="post" novalidate>
+          <div class="form-summary" role="alert"></div>
+          <div class="form-group">
+            <div class="form-field"><label class="form-field__label" for="login-email">Email</label><input class="form-control" id="login-email" name="email" type="email" autocomplete="username" required inputmode="email"><p class="form-field__error" aria-live="polite"></p></div>
+            <div class="form-field"><label class="form-field__label" for="login-password">Password</label><div class="input-with-button"><input class="form-control" id="login-password" name="password" type="password" autocomplete="current-password" required><button type="button" class="input-with-button__button" data-password-toggle="login-password" aria-label="Show password" aria-pressed="false"><svg class="icon icon--sm" aria-hidden="true" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></button></div><p class="form-field__error" aria-live="polite"></p></div>
+            <label class="form-check"><input type="checkbox" name="remember" value="1"><span class="form-check__label">Keep me signed in on this device</span></label>
+          </div>
+          <div class="form-actions"><button type="submit" class="button button--primary button--block">Sign in</button></div>
+          <p class="meta" style="margin-top:1rem">Prototype: no credentials are checked or stored. Sign in opens the demonstration account. Backend required: <code>POST /api/auth/login</code> setting an httpOnly session cookie.</p>
+        </form>
+        <div class="auth__links">
+          <a class="text-link" href="#forgot" data-modal-open="forgot-modal">Forgotten your password?</a>
+          <a class="text-link" href="../join/">Create an account by applying to join</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <dialog class="modal" id="forgot-modal" aria-labelledby="forgot-title">
+    <div class="modal__box">
+      <div class="modal__head"><h2 class="h3 modal__title" id="forgot-title">Reset your password</h2><button type="button" class="modal__close" data-modal-close aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg></button></div>
+      <form data-demo-form data-success-message="If that address has an account, a reset link is on its way (prototype: nothing sent)." novalidate>
+        <div class="form-field"><label class="form-field__label" for="reset-email">Email</label><p class="form-field__hint" id="reset-hint">We send a link that expires. We never send passwords by email.</p><input class="form-control" id="reset-email" name="email" type="email" required aria-describedby="reset-hint"><p class="form-field__error" aria-live="polite"></p></div>
+        <div class="modal__actions"><button type="button" class="button button--ghost" data-modal-close>Cancel</button><button type="submit" class="button button--primary">Send reset link</button></div>
+        <p class="meta" style="margin-top:1rem">Backend required: <code>POST /api/auth/password-reset</code>.</p>
+      </form>
+    </div>
+  </dialog>
+</main>
+<!-- @chrome:footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div class="site-footer__brand">
+        <a class="brand" href="../" aria-label="Gototherapy home"><span class="brand__mark" aria-hidden="true">goto<span>therapy</span></span></a>
+        <p>A UK directory of therapists, supervisors, coaches and trainers whose registration, insurance and supervision have been checked by a person.</p>
+      </div>
+      <div>
+        <p class="site-footer__title">Finding therapy</p>
+        <ul class="site-footer__list">
+          <li><a href="../find-a-therapist/">Find a therapist</a></li>
+          <li><a href="../how-it-works/">How it works</a></li>
+          <li><a href="../how-we-verify/">How we verify</a></li>
+          <li><a href="../online-counselling/">Online counselling</a></li>
+          <li><a href="../counselling/">Counselling by town and issue</a></li>
+          <li><a href="../stories/">Stories</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="site-footer__title">For professionals</p>
+        <ul class="site-footer__list">
+          <li><a href="../join/">Join as a professional</a></li>
+          <li><a href="../pricing/">Membership and pricing</a></li>
+          <li><a href="../login/">Log in</a></li>
+          <li><a href="../supervisors/">Supervisors</a></li>
+          <li><a href="../coaches/">Coaches</a></li>
+          <li><a href="../trainers/">Trainers and training providers</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="site-footer__title">Gototherapy</p>
+        <ul class="site-footer__list">
+          <li><a href="../about/">About</a></li>
+          <li><a href="../crisis/">Urgent support</a></li>
+          <li><a href="../complaints/">Complaints</a></li>
+          <li><a href="../terms/">Terms of service</a></li>
+          <li><a href="../privacy/">Privacy policy</a></li>
+          <li><a href="../cancellation-and-refunds/">Cancellation and refunds</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__crisis">
+      <p>Gototherapy is a directory, not an emergency service. If you or someone else is in immediate danger, call 999. For other urgent help, see <a href="../crisis/">urgent support</a>.</p>
+    </div>
+    <div class="site-footer__bottom">
+      <p>&copy; <span data-year>2026</span> Gototherapy. gototherapy.co.uk. British English throughout.</p>
+      <p><a href="../privacy/">Privacy</a> · <a href="../terms/">Terms</a></p>
+    </div>
+  </div>
+</footer>
+<!-- /@chrome:footer -->
+</body>
+</html>

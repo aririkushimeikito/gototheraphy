@@ -1,0 +1,399 @@
+{
+  "_notice": "DEMO DATA ONLY. Every record here is a fictional demonstration profile used to exercise the interface. None of these people exist. Do not publish. In production this file is replaced by the Therapist API (see BACKEND-INTEGRATION.md).",
+  "_schema": {
+    "id": "string, stable identifier",
+    "slug": "string, URL segment under /therapist/",
+    "demo": "boolean, true for every record in this file",
+    "name": "string",
+    "initials": "string, used when no member-supplied photo exists (never a stock face)",
+    "photo": "string|null, member-supplied photo URL",
+    "role": "therapist | supervisor | coach | trainer | training-provider",
+    "roles": "array of all roles held; holding two roles means meeting both standards",
+    "title": "string, professional title as written by the member",
+    "location": { "town": "string", "slug": "string", "region": "string" },
+    "online": "boolean, offers online sessions",
+    "inPerson": "boolean, offers in-person sessions",
+    "issues": "array of issue slugs from issues.json",
+    "modalities": "array of modality slugs from modalities.json",
+    "profile": { "worksWith": "string", "sessions": "string", "drawnTo": "string", "beforeContact": "string" },
+    "fees": "null until the member supplies fees. Structure when present: { \"session\": number, \"currency\": \"GBP\", \"duration\": \"50 minutes\", \"concessions\": boolean }",
+    "verification": {
+      "status": "verified | partial | pending",
+      "checks": "object keyed by check name; each { \"status\": \"verified|pending|not-required|expired\", \"detail\": string, \"checkedOn\": ISO date|null, \"expires\": ISO date|null }",
+      "lastReviewed": "ISO date|null",
+      "nextReview": "ISO date|null"
+    },
+    "availability": "object keyed by weekday (mon..sun) with array of { \"start\": \"HH:MM\", \"end\": \"HH:MM\" } or empty array for closed",
+    "acceptingClients": "boolean",
+    "words": "number, profile word count used by the indexing threshold"
+  },
+  "records": [
+    {
+      "id": "demo-therapist-a",
+      "slug": "demo-therapist-a",
+      "demo": true,
+      "name": "Demo Therapist A",
+      "initials": "TA",
+      "photo": null,
+      "role": "therapist",
+      "roles": ["therapist"],
+      "title": "Counsellor (demo record)",
+      "location": { "town": "Brighton", "slug": "brighton", "region": "East Sussex" },
+      "online": true,
+      "inPerson": true,
+      "issues": ["anxiety", "work-stress", "self-esteem", "relationships"],
+      "modalities": ["person-centred", "integrative"],
+      "profile": {
+        "worksWith": "Demo text. This paragraph shows where the member answers: who do you work with, and what do they usually come to you about? It is written by the member in the first person, 40 to 80 words, and is never edited into a claim.",
+        "sessions": "Demo text. This paragraph shows where the member describes what a session with them is actually like: the room, the pace, whether you talk or they ask, what the first meeting covers.",
+        "drawnTo": "Demo text. This paragraph shows where the member explains what drew them to this work, in their own words.",
+        "beforeContact": "Demo text. This paragraph shows where the member says what somebody should know before contacting them: how they respond to enquiries, whether they offer an introductory call, and what they do not work with."
+      },
+      "fees": null,
+      "verification": {
+        "status": "verified",
+        "checks": {
+          "registration": { "status": "verified", "detail": "Register entry checked by a person (demo)", "checkedOn": "2026-03-04", "expires": "2027-03-01" },
+          "insurance": { "status": "verified", "detail": "Professional indemnity certificate seen (demo)", "checkedOn": "2026-03-04", "expires": "2027-02-14" },
+          "supervision": { "status": "verified", "detail": "Supervisor confirmed in writing (demo)", "checkedOn": "2026-03-04", "expires": null },
+          "identity": { "status": "verified", "detail": "Photo identity matched to register entry (demo)", "checkedOn": "2026-03-04", "expires": null }
+        },
+        "lastReviewed": "2026-03-04",
+        "nextReview": "2027-03-04"
+      },
+      "availability": { "mon": [{ "start": "09:00", "end": "17:00" }], "tue": [{ "start": "09:00", "end": "17:00" }], "wed": [{ "start": "12:00", "end": "20:00" }], "thu": [{ "start": "09:00", "end": "17:00" }], "fri": [{ "start": "09:00", "end": "13:00" }], "sat": [], "sun": [] },
+      "acceptingClients": true,
+      "words": 180
+    },
+    {
+      "id": "demo-therapist-b",
+      "slug": "demo-therapist-b",
+      "demo": true,
+      "name": "Demo Therapist B",
+      "initials": "TB",
+      "photo": null,
+      "role": "therapist",
+      "roles": ["therapist"],
+      "title": "Psychotherapist (demo record)",
+      "location": { "town": "Brighton", "slug": "brighton", "region": "East Sussex" },
+      "online": true,
+      "inPerson": false,
+      "issues": ["depression", "bereavement", "trauma", "anxiety"],
+      "modalities": ["psychodynamic", "emdr"],
+      "profile": {
+        "worksWith": "Demo text. Who the member works with and what people usually come to them about.",
+        "sessions": "Demo text. What a session with this member is like. Online only in this demo record.",
+        "drawnTo": "Demo text. What drew the member to this work.",
+        "beforeContact": "Demo text. What somebody should know before contacting this member."
+      },
+      "fees": null,
+      "verification": {
+        "status": "verified",
+        "checks": {
+          "registration": { "status": "verified", "detail": "Register entry checked by a person (demo)", "checkedOn": "2026-01-19", "expires": "2026-12-31" },
+          "insurance": { "status": "verified", "detail": "Professional indemnity certificate seen (demo)", "checkedOn": "2026-01-19", "expires": "2026-11-30" },
+          "supervision": { "status": "verified", "detail": "Supervisor confirmed in writing (demo)", "checkedOn": "2026-01-19", "expires": null },
+          "identity": { "status": "verified", "detail": "Photo identity matched to register entry (demo)", "checkedOn": "2026-01-19", "expires": null }
+        },
+        "lastReviewed": "2026-01-19",
+        "nextReview": "2027-01-19"
+      },
+      "availability": { "mon": [], "tue": [{ "start": "18:00", "end": "21:00" }], "wed": [{ "start": "18:00", "end": "21:00" }], "thu": [{ "start": "18:00", "end": "21:00" }], "fri": [], "sat": [{ "start": "09:00", "end": "13:00" }], "sun": [] },
+      "acceptingClients": true,
+      "words": 160
+    },
+    {
+      "id": "demo-therapist-c",
+      "slug": "demo-therapist-c",
+      "demo": true,
+      "name": "Demo Therapist C",
+      "initials": "TC",
+      "photo": null,
+      "role": "therapist",
+      "roles": ["therapist", "coach"],
+      "title": "Counsellor and coach (demo record)",
+      "location": { "town": "Manchester", "slug": "manchester", "region": "Greater Manchester" },
+      "online": true,
+      "inPerson": true,
+      "issues": ["work-stress", "anxiety", "self-esteem", "life-changes"],
+      "modalities": ["cbt", "integrative"],
+      "profile": {
+        "worksWith": "Demo text. This record holds two roles, therapist and coach. Holding two roles means meeting both standards, so the register check still applies.",
+        "sessions": "Demo text. What a session is like.",
+        "drawnTo": "Demo text. What drew the member to the work.",
+        "beforeContact": "Demo text. What to know before contacting."
+      },
+      "fees": null,
+      "verification": {
+        "status": "verified",
+        "checks": {
+          "registration": { "status": "verified", "detail": "Register entry checked by a person (demo)", "checkedOn": "2026-05-11", "expires": "2027-05-01" },
+          "insurance": { "status": "verified", "detail": "Professional indemnity certificate seen (demo)", "checkedOn": "2026-05-11", "expires": "2027-04-30" },
+          "supervision": { "status": "verified", "detail": "Supervisor confirmed in writing (demo)", "checkedOn": "2026-05-11", "expires": null },
+          "identity": { "status": "verified", "detail": "Photo identity matched to register entry (demo)", "checkedOn": "2026-05-11", "expires": null }
+        },
+        "lastReviewed": "2026-05-11",
+        "nextReview": "2027-05-11"
+      },
+      "availability": { "mon": [{ "start": "08:00", "end": "14:00" }], "tue": [{ "start": "08:00", "end": "14:00" }], "wed": [], "thu": [{ "start": "13:00", "end": "19:00" }], "fri": [{ "start": "08:00", "end": "14:00" }], "sat": [], "sun": [] },
+      "acceptingClients": false,
+      "words": 150
+    },
+    {
+      "id": "demo-therapist-d",
+      "slug": "demo-therapist-d",
+      "demo": true,
+      "name": "Demo Therapist D",
+      "initials": "TD",
+      "photo": null,
+      "role": "therapist",
+      "roles": ["therapist"],
+      "title": "Counsellor (demo record, verification pending)",
+      "location": { "town": "Bristol", "slug": "bristol", "region": "Bristol" },
+      "online": false,
+      "inPerson": true,
+      "issues": ["relationships", "family", "anger"],
+      "modalities": ["person-centred", "couples"],
+      "profile": {
+        "worksWith": "Demo text. This record shows the pending state: the application is in, but a person has not yet finished the checks. Pending profiles are not shown in public search.",
+        "sessions": "Demo text.",
+        "drawnTo": "Demo text.",
+        "beforeContact": "Demo text."
+      },
+      "fees": null,
+      "verification": {
+        "status": "pending",
+        "checks": {
+          "registration": { "status": "verified", "detail": "Register entry checked by a person (demo)", "checkedOn": "2026-08-30", "expires": "2027-08-01" },
+          "insurance": { "status": "pending", "detail": "Certificate uploaded, awaiting review (demo)", "checkedOn": null, "expires": null },
+          "supervision": { "status": "pending", "detail": "Supervisor contacted, awaiting reply (demo)", "checkedOn": null, "expires": null },
+          "identity": { "status": "verified", "detail": "Photo identity matched to register entry (demo)", "checkedOn": "2026-08-30", "expires": null }
+        },
+        "lastReviewed": null,
+        "nextReview": null
+      },
+      "availability": { "mon": [{ "start": "10:00", "end": "18:00" }], "tue": [{ "start": "10:00", "end": "18:00" }], "wed": [{ "start": "10:00", "end": "18:00" }], "thu": [], "fri": [], "sat": [], "sun": [] },
+      "acceptingClients": true,
+      "words": 90
+    },
+    {
+      "id": "demo-therapist-e",
+      "slug": "demo-therapist-e",
+      "demo": true,
+      "name": "Demo Therapist E",
+      "initials": "TE",
+      "photo": null,
+      "role": "therapist",
+      "roles": ["therapist"],
+      "title": "Counsellor (demo record)",
+      "location": { "town": "Brighton", "slug": "brighton", "region": "East Sussex" },
+      "online": true,
+      "inPerson": true,
+      "issues": ["bereavement", "anxiety", "life-changes", "young-people"],
+      "modalities": ["humanistic", "integrative"],
+      "profile": {
+        "worksWith": "Demo text. Who the member works with.",
+        "sessions": "Demo text. What sessions are like.",
+        "drawnTo": "Demo text.",
+        "beforeContact": "Demo text."
+      },
+      "fees": null,
+      "verification": {
+        "status": "verified",
+        "checks": {
+          "registration": { "status": "verified", "detail": "Register entry checked by a person (demo)", "checkedOn": "2025-11-02", "expires": "2026-10-31" },
+          "insurance": { "status": "verified", "detail": "Professional indemnity certificate seen (demo)", "checkedOn": "2025-11-02", "expires": "2026-10-15" },
+          "supervision": { "status": "verified", "detail": "Supervisor confirmed in writing (demo)", "checkedOn": "2025-11-02", "expires": null },
+          "identity": { "status": "verified", "detail": "Photo identity matched to register entry (demo)", "checkedOn": "2025-11-02", "expires": null }
+        },
+        "lastReviewed": "2025-11-02",
+        "nextReview": "2026-11-02"
+      },
+      "availability": { "mon": [{ "start": "09:00", "end": "15:00" }], "tue": [], "wed": [{ "start": "09:00", "end": "15:00" }], "thu": [{ "start": "09:00", "end": "15:00" }], "fri": [], "sat": [], "sun": [] },
+      "acceptingClients": true,
+      "words": 170
+    },
+    {
+      "id": "demo-supervisor-a",
+      "slug": "demo-supervisor-a",
+      "demo": true,
+      "name": "Demo Supervisor A",
+      "initials": "SA",
+      "photo": null,
+      "role": "supervisor",
+      "roles": ["supervisor", "therapist"],
+      "title": "Clinical supervisor and counsellor (demo record)",
+      "location": { "town": "Manchester", "slug": "manchester", "region": "Greater Manchester" },
+      "online": true,
+      "inPerson": true,
+      "issues": ["anxiety", "depression", "trauma"],
+      "modalities": ["integrative", "psychodynamic"],
+      "profile": {
+        "worksWith": "Demo text. Supervisors are listed for other professionals, trainees and organisations who need supervision. This record also holds the therapist role.",
+        "sessions": "Demo text.",
+        "drawnTo": "Demo text.",
+        "beforeContact": "Demo text."
+      },
+      "fees": null,
+      "verification": {
+        "status": "verified",
+        "checks": {
+          "registration": { "status": "verified", "detail": "Register entry checked by a person (demo)", "checkedOn": "2026-02-12", "expires": "2027-02-01" },
+          "insurance": { "status": "verified", "detail": "Professional indemnity certificate seen (demo)", "checkedOn": "2026-02-12", "expires": "2027-01-31" },
+          "identity": { "status": "verified", "detail": "Photo identity matched to register entry (demo)", "checkedOn": "2026-02-12", "expires": null },
+          "supervision-training": { "status": "verified", "detail": "Supervision training certificate seen (demo)", "checkedOn": "2026-02-12", "expires": null },
+          "supervision": { "status": "verified", "detail": "Own supervisor confirmed in writing (demo)", "checkedOn": "2026-02-12", "expires": null }
+        },
+        "lastReviewed": "2026-02-12",
+        "nextReview": "2027-02-12"
+      },
+      "availability": { "mon": [{ "start": "09:00", "end": "17:00" }], "tue": [{ "start": "09:00", "end": "17:00" }], "wed": [{ "start": "09:00", "end": "17:00" }], "thu": [{ "start": "09:00", "end": "17:00" }], "fri": [{ "start": "09:00", "end": "12:00" }], "sat": [], "sun": [] },
+      "acceptingClients": true,
+      "words": 165
+    },
+    {
+      "id": "demo-supervisor-b",
+      "slug": "demo-supervisor-b",
+      "demo": true,
+      "name": "Demo Supervisor B",
+      "initials": "SB",
+      "photo": null,
+      "role": "supervisor",
+      "roles": ["supervisor"],
+      "title": "Clinical supervisor (demo record)",
+      "location": { "town": "Leeds", "slug": "leeds", "region": "West Yorkshire" },
+      "online": true,
+      "inPerson": false,
+      "issues": [],
+      "modalities": ["person-centred"],
+      "profile": {
+        "worksWith": "Demo text. Online supervision only in this record.",
+        "sessions": "Demo text.",
+        "drawnTo": "Demo text.",
+        "beforeContact": "Demo text."
+      },
+      "fees": null,
+      "verification": {
+        "status": "verified",
+        "checks": {
+          "registration": { "status": "verified", "detail": "Register entry checked by a person (demo)", "checkedOn": "2026-06-20", "expires": "2027-06-01" },
+          "insurance": { "status": "verified", "detail": "Professional indemnity certificate seen (demo)", "checkedOn": "2026-06-20", "expires": "2027-05-31" },
+          "identity": { "status": "verified", "detail": "Photo identity matched to register entry (demo)", "checkedOn": "2026-06-20", "expires": null },
+          "supervision-training": { "status": "verified", "detail": "Supervision training certificate seen (demo)", "checkedOn": "2026-06-20", "expires": null }
+        },
+        "lastReviewed": "2026-06-20",
+        "nextReview": "2027-06-20"
+      },
+      "availability": { "mon": [{ "start": "10:00", "end": "16:00" }], "tue": [{ "start": "10:00", "end": "16:00" }], "wed": [], "thu": [{ "start": "10:00", "end": "16:00" }], "fri": [], "sat": [], "sun": [] },
+      "acceptingClients": true,
+      "words": 120
+    },
+    {
+      "id": "demo-coach-a",
+      "slug": "demo-coach-a",
+      "demo": true,
+      "name": "Demo Coach A",
+      "initials": "CA",
+      "photo": null,
+      "role": "coach",
+      "roles": ["coach"],
+      "title": "Wellbeing coach (demo record)",
+      "location": { "town": "London", "slug": "london", "region": "Greater London" },
+      "online": true,
+      "inPerson": true,
+      "issues": ["work-stress", "life-changes", "self-esteem"],
+      "modalities": ["coaching"],
+      "profile": {
+        "worksWith": "Demo text. Coaching is not a regulated profession in the UK, so this record shows the caveat printed on the profile rather than hidden in a tooltip.",
+        "sessions": "Demo text.",
+        "drawnTo": "Demo text.",
+        "beforeContact": "Demo text."
+      },
+      "fees": null,
+      "verification": {
+        "status": "verified",
+        "checks": {
+          "insurance": { "status": "verified", "detail": "Wellbeing insurance certificate seen (demo)", "checkedOn": "2026-04-08", "expires": "2027-04-01" },
+          "identity": { "status": "verified", "detail": "Photo identity checked (demo)", "checkedOn": "2026-04-08", "expires": null }
+        },
+        "lastReviewed": "2026-04-08",
+        "nextReview": "2027-04-08"
+      },
+      "availability": { "mon": [{ "start": "07:00", "end": "12:00" }], "tue": [{ "start": "07:00", "end": "12:00" }], "wed": [{ "start": "07:00", "end": "12:00" }], "thu": [{ "start": "07:00", "end": "12:00" }], "fri": [{ "start": "07:00", "end": "12:00" }], "sat": [], "sun": [] },
+      "acceptingClients": true,
+      "words": 140
+    },
+    {
+      "id": "demo-trainer-a",
+      "slug": "demo-trainer-a",
+      "demo": true,
+      "name": "Demo Trainer A",
+      "initials": "RA",
+      "photo": null,
+      "role": "trainer",
+      "roles": ["trainer"],
+      "title": "Counselling trainer (demo record)",
+      "location": { "town": "Edinburgh", "slug": "edinburgh", "region": "City of Edinburgh" },
+      "online": true,
+      "inPerson": true,
+      "issues": [],
+      "modalities": ["person-centred", "integrative"],
+      "profile": {
+        "worksWith": "Demo text. Trainers deliver CPD and course teaching to other professionals and trainees.",
+        "sessions": "Demo text.",
+        "drawnTo": "Demo text.",
+        "beforeContact": "Demo text."
+      },
+      "fees": null,
+      "verification": {
+        "status": "verified",
+        "checks": {
+          "registration": { "status": "verified", "detail": "Register entry checked by a person (demo)", "checkedOn": "2026-07-01", "expires": "2027-07-01" },
+          "insurance": { "status": "verified", "detail": "Professional indemnity certificate seen (demo)", "checkedOn": "2026-07-01", "expires": "2027-06-30" },
+          "identity": { "status": "verified", "detail": "Photo identity matched to register entry (demo)", "checkedOn": "2026-07-01", "expires": null }
+        },
+        "lastReviewed": "2026-07-01",
+        "nextReview": "2027-07-01"
+      },
+      "availability": { "mon": [], "tue": [{ "start": "09:00", "end": "17:00" }], "wed": [{ "start": "09:00", "end": "17:00" }], "thu": [], "fri": [], "sat": [], "sun": [] },
+      "acceptingClients": true,
+      "words": 110
+    },
+    {
+      "id": "demo-provider-a",
+      "slug": "demo-provider-a",
+      "demo": true,
+      "name": "Demo Training Provider A",
+      "initials": "PA",
+      "photo": null,
+      "role": "training-provider",
+      "roles": ["training-provider"],
+      "title": "Counselling training provider (demo record)",
+      "location": { "town": "Cardiff", "slug": "cardiff", "region": "Cardiff" },
+      "online": true,
+      "inPerson": true,
+      "issues": [],
+      "modalities": ["person-centred", "cbt"],
+      "profile": {
+        "worksWith": "Demo text. Training providers are organisations. Course accreditation and insurance are checked; there is no personal register for an organisation, so the caveat is printed.",
+        "sessions": "Demo text.",
+        "drawnTo": "Demo text.",
+        "beforeContact": "Demo text."
+      },
+      "fees": null,
+      "verification": {
+        "status": "verified",
+        "checks": {
+          "accreditation": { "status": "verified", "detail": "Course accreditation confirmed with the awarding body (demo)", "checkedOn": "2026-03-22", "expires": "2027-03-22" },
+          "insurance": { "status": "verified", "detail": "Organisation insurance certificate seen (demo)", "checkedOn": "2026-03-22", "expires": "2027-03-01" },
+          "identity": { "status": "verified", "detail": "Organisation and named contact identity checked (demo)", "checkedOn": "2026-03-22", "expires": null }
+        },
+        "lastReviewed": "2026-03-22",
+        "nextReview": "2027-03-22"
+      },
+      "availability": { "mon": [{ "start": "09:00", "end": "17:00" }], "tue": [{ "start": "09:00", "end": "17:00" }], "wed": [{ "start": "09:00", "end": "17:00" }], "thu": [{ "start": "09:00", "end": "17:00" }], "fri": [{ "start": "09:00", "end": "17:00" }], "sat": [], "sun": [] },
+      "acceptingClients": true,
+      "words": 130
+    }
+  ]
+}

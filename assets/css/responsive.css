@@ -1,0 +1,46 @@
+/* ==========================================================================
+   Gototherapy — Responsive refinements
+   Most components carry their own breakpoints. This file holds the global
+   adjustments that do not belong to a single component, plus print.
+   Tested at 320, 375, 390, 414, 768, 1024, 1280, 1440, 1920.
+   ========================================================================== */
+
+/* Small phones: keep type readable and tap targets comfortable */
+@media (max-width: 380px) {
+  .brand__tag { display: none; }
+  .hero__actions .button { flex: 1 1 100%; }
+  .search-card__actions .button { width: 100%; }
+  .form-actions .button { flex: 1 1 100%; }
+  .progress { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .booking__slots { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* Large phones and small tablets */
+@media (min-width: 480px) and (max-width: 767px) {
+  .hero__actions .button { min-width: 12rem; }
+}
+
+/* Tablets: tighten section spacing slightly and use two columns */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero__grid { grid-template-columns: minmax(0, 1fr); }
+  .hero__media { aspect-ratio: 16 / 9; }
+  .split { gap: var(--stack-4); }
+}
+
+/* Very large screens: keep measure and stop things from ballooning */
+@media (min-width: 1600px) {
+  :root { --wrap: 1280px; }
+}
+
+/* Hover-capable devices only get hover lifts */
+@media (hover: none) {
+  .button:hover, .card--hover:hover, .card--link:hover { transform: none; }
+}
+
+/* Print: strip chrome, keep content */
+@media print {
+  .site-header, .site-footer, .sticky-cta, .mobile-menu, .menu-toggle, .toast-region, .search-card, .hero__media { display: none; }
+  body { background: #fff; color: #000; }
+  .section { padding-block: 1.5rem; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: .8em; }
+}

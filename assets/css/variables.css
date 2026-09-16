@@ -1,0 +1,95 @@
+/* ==========================================================================
+   Gototherapy — Design tokens (Design System v2.0 "Stone & Ember")
+   Every colour, size and duration used on the site is declared here.
+   Change a value here and the whole site follows.
+   ========================================================================== */
+
+:root {
+  /* ---- Grounds ---- */
+  --paper: #F5F2EC;        /* the page, warm, never grey */
+  --paper-deep: #EBE5DB;   /* alternating bands */
+  --wash: #EFE9DF;         /* note panels, table heads */
+  --surface: #FCFBF8;      /* cards on paper */
+
+  /* ---- Ink ---- */
+  --ink: #1F1B17;          /* body and headings    15.31:1 on paper */
+  --ink-soft: #574F46;     /* secondary text        7.20:1 */
+  --ink-mute: #6B6259;     /* tertiary, safe small  5.34:1 */
+
+  /* ---- Dark anchor ---- */
+  --navy: #2B2520;         /* panels, footer, CTA blocks (the name is historical) */
+  --on-navy: #F3EFE8;      /* text on anchor       13.20:1 */
+  --on-navy-soft: #CFC6B9; /* secondary on anchor   8.95:1 */
+  --on-navy-mute: #B3A899; /* labels on anchor      6.47:1 */
+
+  /* ---- Trust and accent ---- */
+  --slate: #3F5545;        /* links and primary buttons 7.24:1 on paper */
+  --slate-deep: #33453A;   /* hover/active for slate fills */
+  --clay: #B4552C;         /* Ember. Fills and marks ONLY. Never text on paper. */
+  --clay-ink: #A34D28;     /* Ember as text          5.15:1 on paper */
+  --sky: #C9BCA9;          /* Warm sand. Decoration only. Never text. */
+
+  /* ---- Derived lines (warm-tinted, never neutral black) ---- */
+  --line: rgba(31, 27, 23, 0.12);
+  --line-soft: rgba(31, 27, 23, 0.08);
+  --line-strong: rgba(31, 27, 23, 0.22);
+  --line-on-dark: rgba(243, 239, 232, 0.22);
+  --plate: rgba(43, 37, 32, 0.86); /* caption plate over photography */
+
+  /* ---- Type ---- */
+  --font-display: "Instrument Serif", "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --font-ui: "Schibsted Grotesk", "Helvetica Neue", Arial, system-ui, sans-serif;
+
+  --fs-hero: clamp(2.6rem, 1.4rem + 5.4vw, 5.2rem);
+  --fs-h2: clamp(2rem, 1.4rem + 2.6vw, 3.4rem);
+  --fs-h3: clamp(1.31rem, 1.15rem + .7vw, 1.6rem);
+  --fs-lead: clamp(1.06rem, 1rem + .35vw, 1.25rem);
+  --fs-body: clamp(1rem, .97rem + .15vw, 1.06rem);
+  --fs-small: .9375rem;
+  --fs-meta: .8125rem;
+
+  --measure-body: 64ch;
+  --measure-lead: 52ch;
+  --measure-h1: 15ch;
+  --measure-h2: 18ch;
+
+  /* ---- Layout ---- */
+  --wrap: 1220px;
+  --wrap-narrow: 760px;
+  --gutter: clamp(1.25rem, 5vw, 3rem);
+  --section: clamp(4rem, 10vw, 8.5rem);
+  --section-tight: clamp(3rem, 7vw, 5.5rem);
+  --stack-1: .5rem;
+  --stack-2: 1rem;
+  --stack-3: 1.5rem;
+  --stack-4: 2.25rem;
+  --stack-5: 3.5rem;
+
+  /* ---- Radius ladder ---- */
+  --r-input: 12px;
+  --r-field: 18px;
+  --r-card: 26px;
+  --r-panel: 36px;
+  --r-pill: 999px;
+
+  /* ---- Shadows (three steps only, warm-tinted) ---- */
+  --shadow-s: 0 1px 2px rgba(31, 27, 23, .04), 0 4px 12px rgba(31, 27, 23, .05);
+  --shadow-m: 0 2px 6px rgba(31, 27, 23, .05), 0 14px 32px rgba(31, 27, 23, .09);
+  --shadow-l: 0 6px 18px rgba(31, 27, 23, .07), 0 30px 70px rgba(31, 27, 23, .14);
+
+  /* ---- Motion ---- */
+  --ease: cubic-bezier(.22, .61, .36, 1);
+  --t-hover: 350ms;
+  --t-reveal: 800ms;
+  --t-stagger: 70ms;
+  --t-drift: 30s;
+
+  /* ---- Controls ---- */
+  --tap: 44px;
+
+  /* ---- Layers ---- */
+  --z-header: 50;
+  --z-menu: 60;
+  --z-modal: 100;
+  --z-toast: 110;
+}

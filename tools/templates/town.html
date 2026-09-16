@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="robots" content="{{robots}}">
+<link rel="canonical" href="https://gototherapy.co.uk/counselling/{{slug}}/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Gototherapy">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="https://gototherapy.co.uk/counselling/{{slug}}/">
+<meta property="og:image" content="https://gototherapy.co.uk/assets/images/hero-room-plants-1100.jpg">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{title}}">
+<meta name="twitter:description" content="{{description}}">
+<meta name="twitter:image" content="https://gototherapy.co.uk/assets/images/hero-room-plants-1100.jpg">
+<!-- @chrome:head --><!-- /@chrome:head -->
+<script type="application/ld+json">{{{collection_ld}}}</script>
+<script type="application/ld+json">{{{breadcrumb_ld}}}</script>
+</head>
+<body data-page="directory" data-town="{{slug}}">
+<!-- @chrome:header --><!-- /@chrome:header -->
+<main id="main">
+  <section class="hero hero--page">
+    <div class="container">
+      {{{breadcrumbs}}}
+      <p class="eyebrow">Counselling in {{town}}, {{region}}</p>
+      <h1 class="h1">Therapists in {{town}} whose checks you can read</h1>
+      <p class="answer">Every therapist listed for {{town}} has had their professional registration, insurance and supervision checked by a person at Gototherapy, and the checks are printed on their profile. You can filter by issue, choose online or in-person sessions, and contact a therapist directly. There are no reviews or ratings.</p>
+      {{^indexable}}<div class="note-panel note-panel--placeholder" style="margin-top:1.5rem"><p class="note-panel__title">Not yet indexed</p><p>This town page is <code>noindex</code> until it has its long-form section and three or more verified therapists. The threshold is computed at build time from the data.</p></div>{{/indexable}}
+    </div>
+  </section>
+
+  <section class="section section--tight section--flush-top">
+    <div class="container">
+      <div class="section__head section__head--split">
+        <h2 class="h2">Verified therapists in {{town}}</h2>
+        <p class="lead" data-directory-count>Loading verified profiles…</p>
+      </div>
+      <div class="profile-grid" data-directory-results>
+        {{#has_matches}}{{{cards}}}{{/has_matches}}
+        {{^has_matches}}<div class="empty-state"><h3 class="h3">No verified therapists listed in {{town}} yet</h3><p>Profiles appear once a person has completed their checks. Many therapists elsewhere in the UK work online.</p><div class="empty-state__actions"><a class="button button--primary" href="/find-a-therapist/?online=1">See therapists who work online</a></div></div>{{/has_matches}}
+      </div>
+      <div class="hero__actions" style="margin-top:2rem"><a class="button button--ghost" href="/find-a-therapist/?location={{slug}}">Filter {{town}} therapists by issue</a><a class="button button--ghost" href="/online-counselling/">About online counselling</a></div>
+    </div>
+  </section>
+
+  <section class="section section--band">
+    <div class="container">
+      <div class="split split--wide-text">
+        <div>
+          <h2 class="h2">Looking for a therapist in {{town}}</h2>
+          <div class="directory-longform" style="margin-top:1.5rem">{{{longform}}}</div>
+        </div>
+        <div class="split__media">{{{picture}}}</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <h2 class="h3">Common reasons people in {{town}} look for therapy</h2>
+      <p class="soft" style="max-width:52ch">Issue pages combine the town with what you are looking for help with. Each one only appears once there are enough verified therapists to be useful.</p>
+      <ul class="link-grid" style="margin-top:1.25rem">{{{issue_links}}}</ul>
+    </div>
+  </section>
+
+  <section class="section section--tight section--flush-top">
+    <div class="container">
+      <div class="grid grid--3">
+        <a class="card card--link" href="/how-it-works/"><h3 class="h3">How finding a therapist works</h3><p class="card__text">What a first session is like, what it costs, and how to tell whether it is the right fit.</p></a>
+        <a class="card card--link" href="/how-we-verify/"><h3 class="h3">What was checked, and by whom</h3><p class="card__text">Registration, insurance and supervision, per role, rechecked every year.</p></a>
+        <a class="card card--link" href="/stories/"><h3 class="h3">Stories about starting therapy</h3><p class="card__text">Short, honest pieces about the first email, the first session, and paying for it.</p></a>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- @chrome:footer --><!-- /@chrome:footer -->
+</body>
+</html>

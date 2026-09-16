@@ -1,0 +1,12 @@
+# Gototherapy — robots.txt
+# Login, account and thank-you pages carry noindex in their HTML; they are
+# disallowed here as well so crawl budget is not spent on them.
+User-agent: *
+Disallow: /login/
+Disallow: /account/
+Disallow: /thank-you/
+Disallow: /data/
+Disallow: /tools/
+Allow: /
+
+Sitemap: https://gototherapy.co.uk/sitemap.xml

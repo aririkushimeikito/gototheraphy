@@ -1,0 +1,53 @@
+{
+  "_notice": "BACKEND REQUIRED. Prices are not decided (Design System v2.0, page 18: 'Decide the price, and whether an annual option exists'). Nothing here is a real price. When prices exist they are set in Stripe Products/Prices and mirrored here (or fetched from GET /api/pricing). The UI renders a PRICE REQUIRED placeholder for any null amount and never shows an invented figure.",
+  "currency": "GBP",
+  "vatNote": null,
+  "plans": [
+    {
+      "id": "membership-monthly",
+      "name": "Membership",
+      "interval": "month",
+      "amount": null,
+      "stripePriceId": "STRIPE_PRICE_ID_MEMBERSHIP_MONTHLY",
+      "enabled": true,
+      "featured": true,
+      "paidPlacement": false,
+      "includes": [
+        "A public profile once your checks are complete",
+        "Registration, insurance, supervision and identity checked by a person, per role",
+        "Annual recheck included",
+        "Listing in town, issue and online searches",
+        "Member account to manage profile, fees and availability"
+      ]
+    },
+    {
+      "id": "membership-annual",
+      "name": "Membership, paid annually",
+      "interval": "year",
+      "amount": null,
+      "stripePriceId": "STRIPE_PRICE_ID_MEMBERSHIP_ANNUAL",
+      "enabled": false,
+      "featured": false,
+      "paidPlacement": false,
+      "includes": [
+        "Everything in monthly membership",
+        "One payment a year"
+      ]
+    },
+    {
+      "id": "featured-placement",
+      "name": "Featured placement",
+      "interval": "month",
+      "amount": null,
+      "stripePriceId": "STRIPE_PRICE_ID_FEATURED",
+      "enabled": false,
+      "featured": false,
+      "paidPlacement": true,
+      "includes": [
+        "Your profile shown in a labelled featured position on relevant search pages",
+        "Always marked as paid placement to the person searching",
+        "Does not change or replace verification"
+      ]
+    }
+  ]
+}

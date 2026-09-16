@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="robots" content="{{robots}}">
+<link rel="canonical" href="https://gototherapy.co.uk/counselling/{{slug}}/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Gototherapy">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="https://gototherapy.co.uk/counselling/{{slug}}/">
+<meta property="og:image" content="https://gototherapy.co.uk/assets/images/session-sunlit-conversation-500.jpg">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{title}}">
+<meta name="twitter:description" content="{{description}}">
+<meta name="twitter:image" content="https://gototherapy.co.uk/assets/images/session-sunlit-conversation-500.jpg">
+<!-- @chrome:head --><!-- /@chrome:head -->
+<script type="application/ld+json">{{{collection_ld}}}</script>
+<script type="application/ld+json">{{{breadcrumb_ld}}}</script>
+</head>
+<body data-page="directory" data-issue="{{slug}}">
+<!-- @chrome:header --><!-- /@chrome:header -->
+<main id="main">
+  <section class="hero hero--page">
+    <div class="container">
+      {{{breadcrumbs}}}
+      <p class="eyebrow">{{issue}}</p>
+      <h1 class="h1">Talking to somebody about {{issue_lower}}</h1>
+      <p class="answer">{{short}} The therapists listed here say they work with {{issue_lower}}, and each has had their registration, insurance and supervision checked by a person. This page describes what it can feel like, when it is worth talking to somebody, and what a first session tends to cover. It does not diagnose anything.</p>
+      <div style="margin-top:1.5rem">{{{reviewer}}}</div>
+    </div>
+  </section>
+
+  <section class="section section--tight section--flush-top">
+    <div class="container">
+      <div class="section__head section__head--split">
+        <h2 class="h2">Verified therapists who work with {{issue_lower}}</h2>
+        <p class="lead" data-directory-count>Loading verified profiles…</p>
+      </div>
+      <div class="profile-grid" data-directory-results>
+        {{#has_matches}}{{{cards}}}{{/has_matches}}
+        {{^has_matches}}<div class="empty-state"><h3 class="h3">No verified therapists listed for this yet</h3><p>Profiles appear once a person has completed their checks.</p><div class="empty-state__actions"><a class="button button--primary" href="/find-a-therapist/">Browse all verified therapists</a></div></div>{{/has_matches}}
+      </div>
+      <div class="hero__actions" style="margin-top:2rem"><a class="button button--ghost" href="/find-a-therapist/?issue={{slug}}">Filter by town or online</a></div>
+    </div>
+  </section>
+
+  <section class="section section--band">
+    <div class="container">
+      <div class="split split--wide-text">
+        <div>
+          <h2 class="h2">About {{issue_lower}}</h2>
+          <div class="directory-longform" style="margin-top:1.5rem">{{{longform}}}</div>
+          <div class="note-panel" style="margin-top:2rem"><p class="note-panel__title">If you need help now</p><p>Gototherapy is a directory, not an emergency service. If you are in immediate danger call 999. For other urgent support see the <a href="/crisis/">urgent support page</a>.</p></div>
+        </div>
+        <div class="split__media">{{{picture}}}</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <h2 class="h3">{{issue}} therapists by town</h2>
+      <ul class="link-grid" style="margin-top:1.25rem">{{{town_links}}}</ul>
+    </div>
+  </section>
+
+  <section class="section section--tight section--flush-top">
+    <div class="container">
+      <div class="grid grid--3">
+        <a class="card card--link" href="/stories/what-happens-in-a-first-therapy-session/"><h3 class="h3">What happens in a first therapy session?</h3><p class="card__text">What the first hour is for, and why you do not have to decide anything in the room.</p></a>
+        <a class="card card--link" href="/online-counselling/"><h3 class="h3">Can I have therapy online?</h3><p class="card__text">Who it suits, what changes when the room is a screen, and how to set it up.</p></a>
+        <a class="card card--link" href="/how-we-verify/"><h3 class="h3">What was checked</h3><p class="card__text">Registration, insurance and supervision, checked by a person, per role.</p></a>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- @chrome:footer --><!-- /@chrome:footer -->
+</body>
+</html>

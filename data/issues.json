@@ -1,0 +1,48 @@
+{
+  "_notice": "Issue taxonomy for search and the issue pages. 'longform' is the 400-600 word editorial section (H3 subsections). Every issue page carries a named clinical reviewer before it is published; 'clinicalReviewer' null means the page renders a CONTENT REQUIRED notice and is never indexed. Nothing here diagnoses or describes symptoms as a checklist.",
+  "records": [
+    {
+      "slug": "anxiety",
+      "name": "Anxiety",
+      "short": "Worry that will not settle, a body that is always braced, and the effort of hiding it.",
+      "clinicalReviewer": null,
+      "longform": [
+        { "h3": "What anxiety tends to feel like day to day", "p": ["Anxiety is rarely one big moment. More often it is a low hum that runs underneath everything: the email you re-read four times, the phone call you put off until it becomes a problem, the Sunday evening that starts at lunchtime. Your body may be tight in a way you stop noticing. Sleep may be shallow. You may be very good at hiding it, which is its own kind of tiring.", "People describe it differently. Some talk about dread, some about restlessness, some about a mind that will not stop planning for things that never happen. There is no right way to have it."] },
+        { "h3": "When it is worth talking to somebody", "p": ["You do not need to reach a threshold. If anxiety is shaping your decisions, costing you sleep, or making you smaller than you want to be, that is enough reason to talk to a therapist. You are allowed to seek help for something that other people would call manageable. You are also allowed to not come back after a first session if it is not right."] },
+        { "h3": "What kinds of therapy people work with for anxiety", "p": ["Several approaches are commonly used, and the therapists listed here describe theirs in their own words. Cognitive behavioural therapy works with the link between thoughts, feelings and what you do next. Person-centred and humanistic approaches give you room to say what is happening without being steered. Psychodynamic work looks at where patterns come from. Many therapists describe themselves as integrative, meaning they draw on more than one approach depending on the person in front of them.", "None of these is ranked here. Which one suits you depends on how you like to work and who you can talk to. A therapist's profile should explain their approach plainly. If it does not, ask."] },
+        { "h3": "What a first session about anxiety tends to cover", "p": ["A first session is usually a conversation about what has been happening, how long it has been going on, and what you would like to be different. The therapist may ask what you have already tried. You can ask how they work and what a typical run of sessions looks like. Nothing needs to be decided in the room. Most therapists expect you to go away and think about whether it felt right."] }
+      ],
+      "image": "session-sunlit-conversation"
+    },
+    {
+      "slug": "depression",
+      "name": "Depression and low mood",
+      "short": "Flatness, heaviness, and the loss of things that used to matter.",
+      "clinicalReviewer": null,
+      "longform": null,
+      "image": null
+    },
+    {
+      "slug": "bereavement",
+      "name": "Bereavement and loss",
+      "short": "Grief after a death, and the losses that do not have a name.",
+      "clinicalReviewer": null,
+      "longform": [
+        { "h3": "What bereavement tends to feel like", "p": ["Grief does not follow a timetable, whatever people around you may expect. It can arrive months after a death, or fade and return without warning. It can feel like sadness, but also like anger, numbness, guilt, relief, or a strange practical calm. It can be for a person, but also for a relationship, a home, a job, a pregnancy or a version of your own future.", "Many people find that the world moves on faster than they can. The cards stop. The phone goes quiet. That is often the point at which talking to somebody outside your life starts to make sense."] },
+        { "h3": "When it is worth talking to somebody", "p": ["There is no point at which grief becomes serious enough to deserve help. If you want somewhere to say the things you cannot say to the people who are also grieving, a therapist can be that place. You do not need to be struggling to cope. You are allowed to want an hour where nobody needs you to be all right."] },
+        { "h3": "What kinds of therapy people work with after a loss", "p": ["Many counsellors work with bereavement as a core part of their practice, often using person-centred or humanistic approaches that give you room to talk without being directed. Some describe their work as psychodynamic, which pays attention to what the loss has stirred up from earlier in your life. Some work in a shorter, more structured way. Profiles here say which, in the therapist's own words, and nothing on this page ranks one above another."] },
+        { "h3": "What a first session tends to cover", "p": ["A first session after a loss is usually slow. The therapist will want to know who or what you have lost, and what has happened since. You can say as little as you want. You can also ask how they work with grief and whether they have a sense of how long people tend to see them. You do not have to decide anything, and you do not have to come back."] }
+      ],
+      "image": "living-room-empty"
+    },
+    { "slug": "relationships", "name": "Relationships", "short": "Couples, partners, friendships and the patterns that keep repeating.", "clinicalReviewer": null, "longform": null, "image": null },
+    { "slug": "work-stress", "name": "Work and stress", "short": "Burnout, pressure, and the job that follows you home.", "clinicalReviewer": null, "longform": null, "image": null },
+    { "slug": "trauma", "name": "Trauma", "short": "Things that happened, and the way they keep happening.", "clinicalReviewer": null, "longform": null, "image": null },
+    { "slug": "self-esteem", "name": "Self-esteem", "short": "The quiet certainty that you are not enough.", "clinicalReviewer": null, "longform": null, "image": null },
+    { "slug": "family", "name": "Family", "short": "Parents, children, siblings and the roles nobody chose.", "clinicalReviewer": null, "longform": null, "image": null },
+    { "slug": "anger", "name": "Anger", "short": "Reactions that arrive faster than you can think.", "clinicalReviewer": null, "longform": null, "image": null },
+    { "slug": "life-changes", "name": "Life changes", "short": "Moving, separating, retiring, becoming a parent, starting again.", "clinicalReviewer": null, "longform": null, "image": null },
+    { "slug": "young-people", "name": "Children and young people", "short": "Therapists who work with children, teenagers and their families.", "clinicalReviewer": null, "longform": null, "image": "child-session-blocks" },
+    { "slug": "addiction", "name": "Addiction and habits", "short": "Drink, drugs, gambling, and the things that are hard to stop.", "clinicalReviewer": null, "longform": null, "image": null }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "_notice": "Index of Stories (the site's article surface, canonical at /stories/). Each story is a static HTML page at /stories/[slug]/ so the content exists without JavaScript. This file feeds listings and related-links widgets only. Add a story: write the page, then add its entry here.",
+  "records": [
+    { "slug": "what-happens-in-a-first-therapy-session", "title": "What happens in a first therapy session?", "kicker": "Starting", "summary": "What the first hour is actually for, what a therapist is likely to ask, and why you do not have to decide anything in the room.", "published": "2026-09-01", "readingMinutes": 6, "image": "room-wood-panelled", "topics": ["first-session", "starting"] },
+    { "slug": "how-do-i-know-if-therapy-is-working", "title": "How do I know if therapy is working?", "kicker": "Keeping going", "summary": "It rarely feels like progress from the inside. What to look for, what to say to your therapist, and when to stop.", "published": "2026-09-01", "readingMinutes": 6, "image": "living-room-empty", "topics": ["progress", "ending"] },
+    { "slug": "can-i-have-therapy-online", "title": "Can I have therapy online?", "kicker": "Online", "summary": "Who online counselling suits, what changes when the room is a screen, and how to set it up so it works.", "published": "2026-09-01", "readingMinutes": 5, "image": "desk-laptop-candle", "topics": ["online"] },
+    { "slug": "how-much-does-therapy-cost-in-the-uk", "title": "How much does therapy cost in the UK?", "kicker": "Money", "summary": "How private fees are set, what affects them, what is free on the NHS, and how to ask about cost without embarrassment.", "published": "2026-09-01", "readingMinutes": 6, "image": "conversation-armchairs", "topics": ["cost"] }
+  ]
+}

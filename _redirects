@@ -1,0 +1,7 @@
+# Redirect rules (Netlify/Cloudflare Pages format). Apache and nginx
+# equivalents are in SEO-IMPLEMENTATION.md. GitHub Pages cannot do 301s;
+# /articles/index.html carries a meta refresh and a canonical to /stories/.
+/articles              /stories/              301
+/articles/             /stories/              301
+/articles/*            /stories/:splat        301
+/counselling           /find-a-therapist/     301!

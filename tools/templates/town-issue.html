@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="robots" content="{{robots}}">
+<link rel="canonical" href="{{canonical}}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Gototherapy">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="https://gototherapy.co.uk/counselling/{{slug}}/{{issue_slug}}/">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{title}}">
+<meta name="twitter:description" content="{{description}}">
+<!-- @chrome:head --><!-- /@chrome:head -->
+<script type="application/ld+json">{{{collection_ld}}}</script>
+<script type="application/ld+json">{{{breadcrumb_ld}}}</script>
+</head>
+<body data-page="directory" data-town="{{slug}}" data-issue="{{issue_slug}}">
+<!-- @chrome:header --><!-- /@chrome:header -->
+<main id="main">
+  <section class="hero hero--page">
+    <div class="container">
+      {{{breadcrumbs}}}
+      <p class="eyebrow">{{issue}} · {{town}}</p>
+      <h1 class="h1">{{issue}} therapists in {{town}}, checked by a person</h1>
+      <p class="answer">{{short}} The therapists below are in {{town}} or work online with people there, say they work with {{issue_lower}}, and have had their registration, insurance and supervision verified. Town and issue together is the most specific search on the site, so this page only stays indexed while there are enough verified matches to be useful.</p>
+    </div>
+  </section>
+
+  <section class="section section--tight section--flush-top">
+    <div class="container">
+      <div class="section__head section__head--split">
+        <h2 class="h2">Verified matches</h2>
+        <p class="lead" data-directory-count>Loading verified profiles…</p>
+      </div>
+      <div class="profile-grid" data-directory-results>
+        {{#has_matches}}{{{cards}}}{{/has_matches}}
+        {{^has_matches}}<div class="empty-state"><h3 class="h3">No verified matches yet</h3><p>Try the wider town page, the issue page, or therapists who work online.</p></div>{{/has_matches}}
+      </div>
+      <div class="hero__actions" style="margin-top:2rem">
+        <a class="button button--ghost" href="/counselling/{{slug}}/">All therapists in {{town}}</a>
+        <a class="button button--ghost" href="/counselling/{{issue_slug}}/">About {{issue_lower}}</a>
+        <a class="button button--ghost" href="/find-a-therapist/?issue={{issue_slug}}&amp;online=1">{{issue}} therapists online</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight section--band">
+    <div class="container">
+      <div class="grid grid--3">
+        <a class="card card--link" href="/how-it-works/"><h3 class="h3">How finding a therapist works</h3><p class="card__text">What a first session is like, what it costs, and how to tell whether it is the right fit.</p></a>
+        <a class="card card--link" href="/how-we-verify/"><h3 class="h3">What was checked</h3><p class="card__text">Registration, insurance and supervision, per role, rechecked every year.</p></a>
+        <a class="card card--link" href="/online-counselling/"><h3 class="h3">Online counselling</h3><p class="card__text">Who it suits and how to set it up so it works.</p></a>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- @chrome:footer --><!-- /@chrome:footer -->
+</body>
+</html>

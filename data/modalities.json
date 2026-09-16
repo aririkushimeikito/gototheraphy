@@ -1,0 +1,14 @@
+{
+  "_notice": "Plain-English explanations of approaches. Members choose from this list and their profile prints the explanation, so nobody lists a modality without saying what it means. No efficacy claims.",
+  "records": [
+    { "slug": "person-centred", "name": "Person-centred", "desc": "You lead. The therapist listens closely, does not direct, and works on the idea that you are the best judge of what you need to talk about." },
+    { "slug": "cbt", "name": "Cognitive behavioural therapy (CBT)", "desc": "Structured and practical. Looks at the link between what you think, how you feel and what you do, usually with tasks between sessions." },
+    { "slug": "psychodynamic", "name": "Psychodynamic", "desc": "Pays attention to patterns from earlier in your life and to what happens between you and the therapist. Often longer term." },
+    { "slug": "integrative", "name": "Integrative", "desc": "Draws on more than one approach depending on the person and the moment, rather than following a single method." },
+    { "slug": "humanistic", "name": "Humanistic", "desc": "A family of approaches that focus on you as a whole person, your experience now, and your capacity to make your own choices." },
+    { "slug": "emdr", "name": "EMDR", "desc": "Eye movement desensitisation and reprocessing. A structured approach often used with distressing memories, involving guided eye movements or other bilateral stimulation." },
+    { "slug": "couples", "name": "Couples and relationship therapy", "desc": "Sessions with both partners in the room, focused on how you communicate and what each of you needs." },
+    { "slug": "act", "name": "Acceptance and commitment therapy (ACT)", "desc": "Works on making room for difficult thoughts and feelings rather than fighting them, and on acting in line with what matters to you." },
+    { "slug": "coaching", "name": "Coaching", "desc": "Goal-focused, forward-looking conversations. Coaching is not therapy and is not a regulated profession in the UK." }
+  ]
+}

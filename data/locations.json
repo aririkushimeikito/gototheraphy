@@ -1,0 +1,37 @@
+{
+  "_notice": "Town data for the directory. 'longform' is editorial copy for the town page (250-350 words, no headings, no counts, no prices). Towns without longform render a labelled CONTENT REQUIRED placeholder and are never indexed. Whether a town page is indexed is computed at render time: three or more verified matches AND longform present.",
+  "records": [
+    {
+      "slug": "brighton",
+      "name": "Brighton",
+      "region": "East Sussex",
+      "country": "England",
+      "longform": [
+        "Looking for a therapist in Brighton is easier than in most towns of its size, and harder than it looks. There are a lot of practitioners, spread between the city centre, Hove, Kemptown and the villages along the Downs. Parking near the seafront is expensive and slow. Most people choose somewhere on a bus route or within a short walk of Brighton or Hove station, and many therapists offer early morning or evening hours because so many clients commute to London.",
+        "Brighton has two universities and a large student population, which means there are practitioners who work a great deal with people in their late teens and twenties. It also has a long-established LGBTQ+ community, and a number of therapists say plainly on their profiles that this is where much of their work sits. The creative and digital industries are a large local employer, and freelancers and people between contracts make up a noticeable part of many caseloads.",
+        "Online sessions are common here. Some people choose them because a lunchtime slot from a shared flat or a co-working space is easier than a journey across the city. Others start online with a therapist in Brighton and move to the room later, or keep working online when they leave for a job elsewhere. If the therapist you want to see is in Hove and you are in Saltdean, online may be the difference between going and not going."
+      ],
+      "reviewedBy": null
+    },
+    {
+      "slug": "manchester",
+      "name": "Manchester",
+      "region": "Greater Manchester",
+      "country": "England",
+      "longform": [
+        "Manchester is well served for therapy, but the choice is spread across a wide area. Practitioners work from rooms in the city centre, in Didsbury, Chorlton, Prestwich and the towns of the wider conurbation. The tram makes a lot of them reachable without a car, and many therapists deliberately keep their rooms near a Metrolink stop for that reason. Driving into the centre for a weekday afternoon slot is the option most people regret.",
+        "The city has one of the largest student populations in Europe, several large hospitals, and a media and technology sector that has grown quickly over the last decade. Those three things shape who is looking for therapy here: students far from home, shift workers with unpredictable hours, and people in fast-moving jobs who find it hard to hold a regular weekly slot. Some therapists here offer fortnightly sessions or fixed short-term contracts for exactly that reason.",
+        "Online counselling is a normal part of the picture. If you live in Stockport or Bolton and the therapist you want is in Chorlton, an online session removes a journey that would otherwise decide the matter. Some people also prefer it because they do not want to be seen walking into a familiar building. Neither choice is better; it depends on you, your home and what you can keep up for as long as it is useful."
+      ],
+      "reviewedBy": null
+    },
+    { "slug": "bristol", "name": "Bristol", "region": "Bristol", "country": "England", "longform": null, "reviewedBy": null },
+    { "slug": "london", "name": "London", "region": "Greater London", "country": "England", "longform": null, "reviewedBy": null },
+    { "slug": "leeds", "name": "Leeds", "region": "West Yorkshire", "country": "England", "longform": null, "reviewedBy": null },
+    { "slug": "edinburgh", "name": "Edinburgh", "region": "City of Edinburgh", "country": "Scotland", "longform": null, "reviewedBy": null },
+    { "slug": "cardiff", "name": "Cardiff", "region": "Cardiff", "country": "Wales", "longform": null, "reviewedBy": null },
+    { "slug": "birmingham", "name": "Birmingham", "region": "West Midlands", "country": "England", "longform": null, "reviewedBy": null },
+    { "slug": "glasgow", "name": "Glasgow", "region": "Glasgow City", "country": "Scotland", "longform": null, "reviewedBy": null },
+    { "slug": "nottingham", "name": "Nottingham", "region": "Nottinghamshire", "country": "England", "longform": null, "reviewedBy": null }
+  ]
+}
