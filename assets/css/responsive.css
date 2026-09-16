@@ -7,7 +7,6 @@
 
 /* Small phones: keep type readable and tap targets comfortable */
 @media (max-width: 380px) {
-  .brand__tag { display: none; }
   .hero__actions .button { flex: 1 1 100%; }
   .search-card__actions .button { width: 100%; }
   .form-actions .button { flex: 1 1 100%; }
