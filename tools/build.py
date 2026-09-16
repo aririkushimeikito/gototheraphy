@@ -250,8 +250,18 @@ def relativise(s, depth):
     s = re.sub(r'url\(\s*(["\']?)/(?!/)', lambda m: f"url({m.group(1)}{prefix}", s)
     return s
 
+def asset_version():
+    """Short content hash of all CSS/JS, appended as ?v= so browsers never serve a stale stylesheet against new HTML."""
+    import hashlib
+    h = hashlib.sha1()
+    for p in sorted((ROOT / "assets").rglob("*")):
+        if p.suffix in (".css", ".js"): h.update(p.read_bytes())
+    return h.hexdigest()[:8]
+
 def process_pages():
     partials = {n: read(ROOT / "tools/partials" / f"{n}.html") for n in ("head", "header", "footer")}
+    v = asset_version()
+    partials["head"] = re.sub(r'((?:href|src)="/assets/[^"?]+\.(?:css|js))(?:\?v=\w+)?"', lambda m: f'{m.group(1)}?v={v}"', partials["head"])
     pages = []
     for p in html_files():
         s = read(p)

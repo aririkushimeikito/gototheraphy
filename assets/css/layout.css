@@ -204,7 +204,8 @@
 .hero__content .lead { margin-top: 1.5rem; }
 .hero__actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2rem; }
 .hero__media { position: relative; border-radius: var(--r-panel); overflow: hidden; aspect-ratio: 4 / 3; background: var(--paper-deep); }
-.hero__media img { width: 100%; height: 100%; object-fit: cover; }
+.hero__media picture, .hero__media img { width: 100%; height: 100%; }
+.hero__media img { object-fit: cover; }
 .js .hero__media--drift img { animation: drift var(--t-drift) ease-in-out infinite alternate; transform-origin: center; }
 @keyframes drift {
   from { transform: scale(1.02) translate(0, 0); }
@@ -225,7 +226,7 @@
 .hero--home .hero__content { display: flex; flex-direction: column; justify-content: center; max-width: none; }
 .hero--home .hero__media { aspect-ratio: 4 / 3; }
 .hero--home .hero__media picture, .hero--home .hero__media img { width: 100%; height: 100%; }
-.hero__search { margin-top: clamp(1.5rem, 3vw, 2.5rem); }
+.hero__search { margin-top: clamp(2.5rem, 5vw, 4rem); }
 .hero__search .search-card__grid { grid-template-columns: minmax(0, 1fr); }
 @media (min-width: 720px) { .hero__search .search-card__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (min-width: 900px) {
