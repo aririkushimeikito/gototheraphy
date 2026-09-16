@@ -155,10 +155,16 @@
 .menu-toggle[aria-expanded="true"] .menu-toggle__icon--close { display: block; }
 
 .mobile-menu {
-  position: fixed;
-  inset: 4.5rem 0 0 0;
+  position: absolute;          /* anchored to the sticky header: fixed would be clipped by its backdrop-filter */
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: calc(100vh - 4.5rem);
+  max-height: calc(100dvh - 4.5rem);
   z-index: var(--z-menu);
   background: var(--paper);
+  border-bottom: 1px solid var(--line);
+  box-shadow: var(--shadow-l);
   padding: 1.5rem var(--gutter) 3rem;
   overflow-y: auto;
   transform: translateY(-8px);
