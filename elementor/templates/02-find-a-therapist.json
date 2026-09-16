@@ -1,0 +1,645 @@
+{
+ "content": [
+  {
+   "id": "f687ab1",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-hero",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "1c40236",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Find a therapist",
+      "header_size": "p",
+      "_css_classes": "gt-eyebrow"
+     },
+     "elements": []
+    },
+    {
+     "id": "4f9572b",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Every therapist here has been checked by a person.",
+      "header_size": "h1",
+      "_css_classes": "gt-h1"
+     },
+     "elements": []
+    },
+    {
+     "id": "85a8e48",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Browse verified UK therapists and filter by town, by what you want help with, or by online sessions only. Each profile lists which checks were done: professional register, insurance, supervision and identity. Nothing is ranked and there are no reviews. You contact the therapist directly.</p>",
+      "_css_classes": "gt-answer"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "5831be3",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-section--flush-top",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "65c58ac",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<!-- Functional block, kept verbatim. Replace with [gototherapy_search] when the plugin is installed. -->\n<div data-page=\"search\">\n<section class=\"section section--tight section--flush-top\" data-search=\"\">\n<div class=\"container\">\n<form action=\"/find-a-therapist/\" aria-labelledby=\"filters-title\" class=\"search-card\" data-search-form=\"\" data-search-top=\"\" method=\"get\">\n<p class=\"eyebrow\" id=\"filters-title\">Filter</p>\n<div class=\"filter-bar\">\n<div class=\"search-card__grid search-card__grid--4\">\n<div class=\"form-field\">\n<label class=\"form-field__label\" for=\"f-q\">Search</label>\n<input autocomplete=\"off\" class=\"form-control\" id=\"f-q\" name=\"q\" placeholder=\"Name, town or approach\" type=\"search\"/>\n</div>\n<div class=\"form-field\">\n<label class=\"form-field__label\" for=\"f-location\">Town</label>\n<select class=\"form-control form-control--select\" data-any=\"Anywhere in the UK\" id=\"f-location\" name=\"location\"><option value=\"\">Anywhere in the UK</option></select>\n</div>\n<div class=\"form-field\">\n<label class=\"form-field__label\" for=\"f-issue\">Issue</label>\n<select class=\"form-control form-control--select\" data-any=\"Anything\" id=\"f-issue\" name=\"issue\"><option value=\"\">Anything</option></select>\n</div>\n<div class=\"form-field\">\n<label class=\"form-field__label\" for=\"f-role\">Professional role</label>\n<select class=\"form-control form-control--select\" data-any=\"Any role\" id=\"f-role\" name=\"role\"><option value=\"\">Any role</option></select>\n</div>\n<div class=\"form-field\">\n<label class=\"form-field__label\" for=\"f-modality\">Approach</label>\n<select class=\"form-control form-control--select\" data-any=\"Any approach\" id=\"f-modality\" name=\"modality\"><option value=\"\">Any approach</option></select>\n</div>\n<div class=\"form-field\">\n<label class=\"form-field__label\" for=\"f-sort\">Sort</label>\n<select class=\"form-control form-control--select\" id=\"f-sort\" name=\"sort\"><option value=\"name\">Name, A to Z</option><option value=\"location\">Town</option><option value=\"recent\">Most recently rechecked</option></select>\n</div>\n<div class=\"form-field\">\n<span class=\"form-field__label\">Format</span>\n<label class=\"form-check\"><input name=\"online\" type=\"checkbox\" value=\"1\"/><span class=\"form-check__label\">Online sessions only</span></label>\n</div>\n<div class=\"form-field\">\n<span class=\"form-field__label\">Availability</span>\n<label class=\"form-check\"><input name=\"accepting\" type=\"checkbox\" value=\"1\"/><span class=\"form-check__label\">Taking new clients</span></label>\n</div>\n</div>\n</div>\n<div class=\"search-card__actions\">\n<button class=\"button button--primary\" type=\"submit\">Show results</button>\n<p class=\"search-card__hint\">Filters narrow the list. Nothing here ranks one therapist above another.</p>\n</div>\n</form>\n<div aria-live=\"polite\" class=\"filter-bar__summary\" data-search-summary=\"\"><p>Loading verified profiles…</p></div>\n<p aria-live=\"polite\" class=\"visually-hidden\" data-search-live=\"\"></p>\n<div class=\"profile-grid\" data-search-results=\"\" style=\"margin-top:1.5rem\" tabindex=\"-1\">\n<noscript><div class=\"empty-state\"><h2 class=\"h3\">Search needs JavaScript in this prototype</h2><p>In production the results are rendered by the server. Meanwhile, browse by <a href=\"/counselling/\">town and issue</a>.</p></div></noscript>\n</div>\n<div data-search-pagination=\"\"></div>\n</div>\n</section>\n</div>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "d3bf162",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-band",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    },
+    "background_background": "classic",
+    "background_color": "#EBE5DB"
+   },
+   "elements": [
+    {
+     "id": "93b7d94",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "_css_classes": "gt-row",
+      "flex_direction_tablet": "column",
+      "flex_direction_mobile": "column",
+      "flex_align_items": "center",
+      "flex_gap": {
+       "column": "48",
+       "row": "32",
+       "unit": "px",
+       "size": 48
+      },
+      "flex_gap_tablet": {
+       "column": "32",
+       "row": "32",
+       "unit": "px",
+       "size": 32
+      }
+     },
+     "elements": [
+      {
+       "id": "989a017",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 50.0
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "8cb8cb4",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Browse another way",
+          "header_size": "p",
+          "_css_classes": "gt-eyebrow"
+         },
+         "elements": []
+        },
+        {
+         "id": "ba2e751",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "By what you need, or by where you are.",
+          "header_size": "h2",
+          "_css_classes": "gt-h2"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "f71010b",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 50.0
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "49ddb14",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Issue pages explain what a first session about that thing tends to cover. Town pages describe what looking for a therapist there is actually like.</p>",
+          "_css_classes": "gt-lead"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "1f0cde2",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "_css_classes": "gt-row gt-grid",
+      "flex_direction_tablet": "column",
+      "flex_direction_mobile": "column",
+      "flex_align_items": "center",
+      "flex_gap": {
+       "column": "48",
+       "row": "32",
+       "unit": "px",
+       "size": 48
+      },
+      "flex_gap_tablet": {
+       "column": "32",
+       "row": "32",
+       "unit": "px",
+       "size": 32
+      }
+     },
+     "elements": [
+      {
+       "id": "801bef7",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 50.0
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "6bf5407",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "By issue",
+          "header_size": "h3",
+          "_css_classes": "gt-h3"
+         },
+         "elements": []
+        },
+        {
+         "id": "4e3248c",
+         "elType": "widget",
+         "widgetType": "html",
+         "settings": {
+          "html": "<ul class=\"chip-row\" style=\"margin-top:1rem\">\n<li><a class=\"chip chip--tap\" href=\"/counselling/anxiety/\">Anxiety</a></li>\n<li><a class=\"chip chip--tap\" href=\"/counselling/depression/\">Depression and low mood</a></li>\n<li><a class=\"chip chip--tap\" href=\"/counselling/bereavement/\">Bereavement</a></li>\n<li><a class=\"chip chip--tap\" href=\"/counselling/relationships/\">Relationships</a></li>\n<li><a class=\"chip chip--tap\" href=\"/counselling/work-stress/\">Work and stress</a></li>\n<li><a class=\"chip chip--tap\" href=\"/counselling/trauma/\">Trauma</a></li>\n<li><a class=\"chip chip--tap\" href=\"/counselling/\">All issues</a></li>\n</ul>"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "d6d5929",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 50.0
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "50110c5",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "By town",
+          "header_size": "h3",
+          "_css_classes": "gt-h3"
+         },
+         "elements": []
+        },
+        {
+         "id": "7513064",
+         "elType": "widget",
+         "widgetType": "html",
+         "settings": {
+          "html": "<ul class=\"chip-row\" style=\"margin-top:1rem\">\n<li><a class=\"chip chip--tap\" href=\"/counselling/brighton/\">Brighton</a></li>\n<li><a class=\"chip chip--tap\" href=\"/counselling/manchester/\">Manchester</a></li>\n<li><a class=\"chip chip--tap\" href=\"/counselling/london/\">London</a></li>\n<li><a class=\"chip chip--tap\" href=\"/counselling/bristol/\">Bristol</a></li>\n<li><a class=\"chip chip--tap\" href=\"/counselling/leeds/\">Leeds</a></li>\n<li><a class=\"chip chip--tap\" href=\"/counselling/\">All towns</a></li>\n</ul>"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "baf90d0",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "_css_classes": "gt-row gt-grid",
+      "flex_direction_tablet": "column",
+      "flex_direction_mobile": "column",
+      "flex_align_items": "center",
+      "flex_gap": {
+       "column": "48",
+       "row": "32",
+       "unit": "px",
+       "size": 48
+      },
+      "flex_gap_tablet": {
+       "column": "32",
+       "row": "32",
+       "unit": "px",
+       "size": 32
+      }
+     },
+     "elements": [
+      {
+       "id": "65a6ca7",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 33.33
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "9620587",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "_css_classes": "gt-card",
+          "flex_gap": {
+           "column": "20",
+           "row": "20",
+           "unit": "px",
+           "size": 20
+          }
+         },
+         "elements": [
+          {
+           "id": "e573871",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Supervisors",
+            "header_size": "h3",
+            "_css_classes": "gt-h3",
+            "link": {
+             "url": "/supervisors/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "3a818d8",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>For therapists and trainees who need clinical supervision.</p>",
+            "_css_classes": "gt-soft"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "0141212",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 33.33
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "0335b40",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "_css_classes": "gt-card",
+          "flex_gap": {
+           "column": "20",
+           "row": "20",
+           "unit": "px",
+           "size": 20
+          }
+         },
+         "elements": [
+          {
+           "id": "cff00d7",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Coaches",
+            "header_size": "h3",
+            "_css_classes": "gt-h3",
+            "link": {
+             "url": "/coaches/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "96c2541",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Wellbeing coaches. Insurance and identity checked; the caveat is printed.</p>",
+            "_css_classes": "gt-soft"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "d80b891",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 33.33
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "34369aa",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "_css_classes": "gt-card",
+          "flex_gap": {
+           "column": "20",
+           "row": "20",
+           "unit": "px",
+           "size": 20
+          }
+         },
+         "elements": [
+          {
+           "id": "b62c376",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Trainers and training providers",
+            "header_size": "h3",
+            "_css_classes": "gt-h3",
+            "link": {
+             "url": "/trainers/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "631129f",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>CPD, courses and accredited training.</p>",
+            "_css_classes": "gt-soft"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "b85967f",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "95d0691",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "What does verified mean on this page?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "0bf3f5f",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Verified means a person at Gototherapy has checked the therapist's entry on their professional register, seen a current insurance certificate, confirmed their supervision arrangement with the supervisor, and matched their identity to the register entry. It is repeated every year. It is not a recommendation and it says nothing about whether a therapist is right for you.</p><p>Roles are checked differently. A coach in the UK has no register, so the coach badge says what was checked and the profile says plainly that there is no register. <a href=\"/how-we-verify/\">How we verify, role by role</a>.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ },
+ "version": "0.4",
+ "title": "Browse Verified Therapists in the UK | Gototherapy",
+ "type": "page"
+}

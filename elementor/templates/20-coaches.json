@@ -1,0 +1,456 @@
+{
+ "content": [
+  {
+   "id": "e21f5c7",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-hero",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "2e162aa",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Coaches",
+      "header_size": "p",
+      "_css_classes": "gt-eyebrow"
+     },
+     "elements": []
+    },
+    {
+     "id": "ef6076b",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Coaches, with the caveat printed where you can see it.",
+      "header_size": "h1",
+      "_css_classes": "gt-h1"
+     },
+     "elements": []
+    },
+    {
+     "id": "c3346ee",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Coaching is not a regulated profession in the UK, so there is no register to check. Coaches listed here have had their wellbeing insurance and their identity checked by a person, and that is exactly what the badge says. The caveat is printed on every coach profile, not hidden in a tooltip.</p>",
+      "_css_classes": "gt-answer"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "770c717",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-section--flush-top",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "ff43fc2",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<!-- Functional block, kept verbatim. Replace with [gototherapy_search] when the plugin is installed. -->\n<div data-page=\"search\">\n<section class=\"section section--tight section--flush-top\" data-role=\"coach\" data-search=\"\">\n<div class=\"container\">\n<form action=\"/coaches/\" aria-labelledby=\"filters-title\" class=\"search-card\" data-search-form=\"\" data-search-top=\"\" method=\"get\">\n<p class=\"eyebrow\" id=\"filters-title\">Filter</p>\n<div class=\"filter-bar\">\n<div class=\"search-card__grid search-card__grid--4\">\n<div class=\"form-field\">\n<label class=\"form-field__label\" for=\"f-q\">Search</label>\n<input autocomplete=\"off\" class=\"form-control\" id=\"f-q\" name=\"q\" placeholder=\"Name, town or approach\" type=\"search\"/>\n</div>\n<div class=\"form-field\">\n<label class=\"form-field__label\" for=\"f-location\">Town</label>\n<select class=\"form-control form-control--select\" data-any=\"Anywhere in the UK\" id=\"f-location\" name=\"location\"><option value=\"\">Anywhere in the UK</option></select>\n</div>\n<div class=\"form-field\">\n<label class=\"form-field__label\" for=\"f-issue\">Issue</label>\n<select class=\"form-control form-control--select\" data-any=\"Anything\" id=\"f-issue\" name=\"issue\"><option value=\"\">Anything</option></select>\n</div>\n<div class=\"form-field\">\n<label class=\"form-field__label\" for=\"f-modality\">Approach</label>\n<select class=\"form-control form-control--select\" data-any=\"Any approach\" id=\"f-modality\" name=\"modality\"><option value=\"\">Any approach</option></select>\n</div>\n<div class=\"form-field\">\n<label class=\"form-field__label\" for=\"f-sort\">Sort</label>\n<select class=\"form-control form-control--select\" id=\"f-sort\" name=\"sort\"><option value=\"name\">Name, A to Z</option><option value=\"location\">Town</option><option value=\"recent\">Most recently rechecked</option></select>\n</div>\n<div class=\"form-field\">\n<span class=\"form-field__label\">Format</span>\n<label class=\"form-check\"><input name=\"online\" type=\"checkbox\" value=\"1\"/><span class=\"form-check__label\">Online sessions only</span></label>\n</div>\n<div class=\"form-field\">\n<span class=\"form-field__label\">Availability</span>\n<label class=\"form-check\"><input name=\"accepting\" type=\"checkbox\" value=\"1\"/><span class=\"form-check__label\">Taking new clients</span></label>\n</div>\n</div>\n</div>\n<div class=\"search-card__actions\">\n<button class=\"button button--primary\" type=\"submit\">Show results</button>\n<p class=\"search-card__hint\">Filters narrow the list. Nothing here ranks one therapist above another.</p>\n</div>\n</form>\n<div aria-live=\"polite\" class=\"filter-bar__summary\" data-search-summary=\"\"><p>Loading verified profiles…</p></div>\n<p aria-live=\"polite\" class=\"visually-hidden\" data-search-live=\"\"></p>\n<div class=\"profile-grid\" data-search-results=\"\" style=\"margin-top:1.5rem\" tabindex=\"-1\">\n<noscript><div class=\"empty-state\"><h2 class=\"h3\">Search needs JavaScript in this prototype</h2><p>In production the results are rendered by the server. Meanwhile, browse by <a href=\"/counselling/\">town and issue</a>.</p></div></noscript>\n</div>\n<div data-search-pagination=\"\"></div>\n</div>\n</section>\n</div>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "9c7a802",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-band",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    },
+    "background_background": "classic",
+    "background_color": "#EBE5DB"
+   },
+   "elements": [
+    {
+     "id": "3601e1c",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Other directories",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "17d2669",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "_css_classes": "gt-row gt-grid",
+      "flex_direction_tablet": "column",
+      "flex_direction_mobile": "column",
+      "flex_align_items": "center",
+      "flex_gap": {
+       "column": "48",
+       "row": "32",
+       "unit": "px",
+       "size": 48
+      },
+      "flex_gap_tablet": {
+       "column": "32",
+       "row": "32",
+       "unit": "px",
+       "size": 32
+      }
+     },
+     "elements": [
+      {
+       "id": "2219ec0",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 25.0
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "5a3c020",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "_css_classes": "gt-card",
+          "flex_gap": {
+           "column": "20",
+           "row": "20",
+           "unit": "px",
+           "size": 20
+          }
+         },
+         "elements": [
+          {
+           "id": "771d814",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Therapists",
+            "header_size": "h3",
+            "_css_classes": "gt-h3",
+            "link": {
+             "url": "/find-a-therapist/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "e0f3354",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Counsellors and psychotherapists, checked against their register.</p>",
+            "_css_classes": "gt-soft"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "4fa6022",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 25.0
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "32b8999",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "_css_classes": "gt-card",
+          "flex_gap": {
+           "column": "20",
+           "row": "20",
+           "unit": "px",
+           "size": 20
+          }
+         },
+         "elements": [
+          {
+           "id": "605e636",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Supervisors",
+            "header_size": "h3",
+            "_css_classes": "gt-h3",
+            "link": {
+             "url": "/supervisors/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "d32b327",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Register, insurance and supervision training checked.</p>",
+            "_css_classes": "gt-soft"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "b0ac35e",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 25.0
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "59e8489",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "_css_classes": "gt-card",
+          "flex_gap": {
+           "column": "20",
+           "row": "20",
+           "unit": "px",
+           "size": 20
+          }
+         },
+         "elements": [
+          {
+           "id": "136ced6",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Coaches",
+            "header_size": "h3",
+            "_css_classes": "gt-h3",
+            "link": {
+             "url": "/coaches/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "20104d1",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Insurance and identity checked. Not a regulated profession.</p>",
+            "_css_classes": "gt-soft"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "ab23e56",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 25.0
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "a2531ad",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "_css_classes": "gt-card",
+          "flex_gap": {
+           "column": "20",
+           "row": "20",
+           "unit": "px",
+           "size": 20
+          }
+         },
+         "elements": [
+          {
+           "id": "5fa870d",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Training providers",
+            "header_size": "h3",
+            "_css_classes": "gt-h3",
+            "link": {
+             "url": "/training-providers/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "0a7ba07",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Course accreditation and insurance checked.</p>",
+            "_css_classes": "gt-soft"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "08d35e5",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Holding two roles means meeting both standards. A therapist who is also a coach does not get to drop the register check. <a href=\"/how-we-verify/\">How we verify, role by role</a>.</p>",
+      "_css_classes": "gt-soft"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ },
+ "version": "0.4",
+ "title": "Wellbeing Coaches in the UK | Checked | Gototherapy",
+ "type": "page"
+}

@@ -1,0 +1,635 @@
+{
+ "content": [
+  {
+   "id": "b68f14a",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "ebf7c99",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Money",
+      "header_size": "p",
+      "_css_classes": "gt-eyebrow"
+     },
+     "elements": []
+    },
+    {
+     "id": "c18fa6e",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "How much does therapy cost in the UK?",
+      "header_size": "h1",
+      "_css_classes": "gt-h1"
+     },
+     "elements": []
+    },
+    {
+     "id": "b9eb2b6",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<span>By Gototherapy editorial</span>"
+     },
+     "elements": []
+    },
+    {
+     "id": "7d8b081",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<span>6 min read</span>"
+     },
+     "elements": []
+    },
+    {
+     "id": "abd1d97",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<span>Not a testimonial. Not medical advice.</span>"
+     },
+     "elements": []
+    },
+    {
+     "id": "aaf35f3",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<span class=\"placeholder\" style=\"padding:.15rem .5rem\">Clinical reviewer required before publish</span>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "c6ad098",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "de9d4a4",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Private therapists in the UK set their own fees, usually per session of around fifty minutes, and the fee is shown on a therapist's profile when they have entered it. Fees vary by location, experience and approach. Ask about cost in your first message. NHS Talking Therapies in England is free and you can refer yourself.</p>",
+      "_css_classes": "gt-answer"
+     },
+     "elements": []
+    },
+    {
+     "id": "55b817a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Why does this page not give a number?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "151dd64",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Because any number typed here would be wrong for somebody, and wrong for everybody within a year. Therapists set their own fees. A counsellor in a rural town and a psychotherapist with thirty years' experience in central London are not charging the same, and they should not be averaged. Gototherapy shows the fee a therapist has entered on their own profile, and where a range appears in future it is computed from live member data on the day you look, not typed by a writer.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "b338ec8",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "What affects what a therapist charges?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "0cc5c0b",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Where they are. Room hire and living costs differ, and city-centre rooms cost more than a spare room in a market town.</p><p>How long they have been doing it, and what training they have. Some fees reflect years of further training; that does not mean the more expensive therapist is the better one for you.</p><p>How they work. Some approaches are delivered in short, structured blocks; some are open-ended. Couples and family sessions are usually longer and cost more per session.</p><p>Whether they are online. Some therapists charge the same online and in person; some charge less online because there is no room to pay for.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "3aa4166",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "How do I ask about money without it being awkward?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "0793677",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Ask in the first message, before the first session, in one sentence. “Could you tell me your fee and whether you have availability in the evenings?” is enough. Therapists are asked this every week and nobody will think less of you for it. If anything, a therapist who is cagey about their fee before you meet is telling you something.</p><p>If the fee is more than you can manage, say so. Some therapists keep a small number of reduced-fee or concessionary places, and the profile says so where that is the case. Others will tell you about a colleague or a local low-cost service. You lose nothing by asking.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "fa31a2e",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Is a more expensive therapist a better one?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "376e9db",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>No, or at least not in any way you can rely on. Fees track costs, experience and location far more closely than they track whether a particular person will be able to help you. A therapist charging at the top of the local range may be exactly right for you, and so may one charging at the bottom. What matters is whether you can talk to them, whether they explain how they work, and whether the checks behind them are real. That last part is what Gototherapy does, and it is the same whatever the fee.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "073ac7d",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Is the first session free?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "7a7c198",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Sometimes a short introductory call is, and it is worth asking. A full first session usually is not, because it is a session. If a therapist offers a free first hour, that is their choice rather than a norm.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "ffe01ce",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "What about cancellations?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "75fc538",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Most therapists have a cancellation policy, and most charge for sessions cancelled at short notice, often less than 24 or 48 hours. Ask what the policy is before you start, and ask what happens if you are ill. This is not meanness: a therapist who has held a slot for you cannot fill it at an hour's notice.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "e29e602",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "What is free on the NHS?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "225b0dd",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>In England, NHS Talking Therapies services offer free psychological therapy for anxiety and depression, and you can refer yourself without seeing a GP by finding your local service on the NHS website. Your GP can also refer you, and can tell you about other local services, including those for more complex needs. In Scotland, Wales and Northern Ireland, the GP is the usual route. Waiting times vary by area and the service will tell you what to expect when you refer.</p><p>Some employers offer a small number of free sessions through an employee assistance programme. Some universities and colleges have counselling services for students. Some charities offer low-cost counselling with trainees under supervision. None of these is a lesser option; they are options.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "e9bb53f",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "What about insurance and sliding scales?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "3b967cb",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Some private health insurance policies cover a number of therapy sessions, usually with a therapist from the insurer's own list and often only after a GP referral. If you have a policy through work, it is worth reading what it says before you assume it does not apply. Some therapists also offer a sliding scale, where the fee depends on what you earn. Where a profile on Gototherapy says concessions are available, ask; where it does not, you can still ask.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "a892b3b",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "How much therapy will I need?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "a4a3a5d",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Nobody can tell you that before they have met you, and you should be wary of anyone who does. Some people find a short block of sessions is enough. Some work with a therapist for a long time. Ask the therapist in the first session how often they would expect to see you and how you will both know when to stop; the answer will tell you how they think about it.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "0b7c056",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "What if I start and cannot keep paying?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "ebc875e",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Tell the therapist. It happens, it is not shameful, and there are often options: fortnightly sessions, a reduced fee for a period, or an agreed ending with a plan for what to do next. Stopping for money reasons is not a verdict on you or on the therapy, and you can come back.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "5b10c7a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "What if it is not working?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "c1ff652",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Paying for something that is not helping is its own kind of cost. Say so in the session; if nothing changes, you are allowed to stop and to try somebody else. <a href=\"/stories/how-do-i-know-if-therapy-is-working/\">How to tell whether therapy is working</a>.</p><p>When you are ready to look, <a href=\"/find-a-therapist/\">every therapist listed here</a> has been checked by a person, and where they have entered a fee, it is printed on their profile before you get in touch.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "55845a9",
+     "elType": "widget",
+     "widgetType": "image",
+     "settings": {
+      "image": {
+       "url": "https://aririkushimeikito.github.io/gototheraphy/assets/images/conversation-armchairs-800.jpg",
+       "id": 0,
+       "alt": "Two people in armchairs by a window, one holding a notebook, in a calm, warmly lit room",
+       "source": "library"
+      },
+      "image_size": "full",
+      "caption_source": "none",
+      "_css_classes": "gt-photo gt-photo--wide gt-photo--wide"
+     },
+     "elements": []
+    },
+    {
+     "id": "4f34899",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Read next",
+      "header_size": "p",
+      "_css_classes": "gt-eyebrow"
+     },
+     "elements": []
+    },
+    {
+     "id": "d5f667b",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "_css_classes": "gt-row gt-grid",
+      "flex_direction_tablet": "column",
+      "flex_direction_mobile": "column",
+      "flex_align_items": "center",
+      "flex_gap": {
+       "column": "48",
+       "row": "32",
+       "unit": "px",
+       "size": 48
+      },
+      "flex_gap_tablet": {
+       "column": "32",
+       "row": "32",
+       "unit": "px",
+       "size": 32
+      }
+     },
+     "elements": [
+      {
+       "id": "2e756aa",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 33.33
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "825007e",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "_css_classes": "gt-card",
+          "flex_gap": {
+           "column": "20",
+           "row": "20",
+           "unit": "px",
+           "size": 20
+          }
+         },
+         "elements": [
+          {
+           "id": "67ea4bf",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "What happens in a first therapy session?",
+            "header_size": "h3",
+            "_css_classes": "gt-h3",
+            "link": {
+             "url": "/stories/what-happens-in-a-first-therapy-session/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "e513214",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>What the first hour is for.</p>",
+            "_css_classes": "gt-soft"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "92f4cec",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 33.33
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "6e80197",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "_css_classes": "gt-card",
+          "flex_gap": {
+           "column": "20",
+           "row": "20",
+           "unit": "px",
+           "size": 20
+          }
+         },
+         "elements": [
+          {
+           "id": "04ab220",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "For professionals: membership",
+            "header_size": "h3",
+            "_css_classes": "gt-h3",
+            "link": {
+             "url": "/pricing/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "3159892",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>What the checks include and when members pay.</p>",
+            "_css_classes": "gt-soft"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "65bfc54",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 33.33
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "bebf0bc",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "_css_classes": "gt-card",
+          "flex_gap": {
+           "column": "20",
+           "row": "20",
+           "unit": "px",
+           "size": 20
+          }
+         },
+         "elements": [
+          {
+           "id": "e678874",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "How finding a therapist works",
+            "header_size": "h3",
+            "_css_classes": "gt-h3",
+            "link": {
+             "url": "/how-it-works/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "9c1736e",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Four steps, and none of them is a form about you.</p>",
+            "_css_classes": "gt-soft"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "388b3f9",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"note-panel article-next\"><p class=\"note-panel__title\">If you need help now</p><p>Gototherapy is a directory, not an emergency service. If you are in immediate danger call 999. Otherwise see <a href=\"/crisis/\">urgent support</a>.</p></div>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ },
+ "version": "0.4",
+ "title": "How much does therapy cost in the UK? | Gototherapy",
+ "type": "page"
+}

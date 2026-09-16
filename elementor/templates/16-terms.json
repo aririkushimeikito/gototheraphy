@@ -1,0 +1,368 @@
+{
+ "content": [
+  {
+   "id": "88fbf74",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-hero",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "11caeae",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Terms of Service",
+      "header_size": "p",
+      "_css_classes": "gt-eyebrow"
+     },
+     "elements": []
+    },
+    {
+     "id": "0ffac7c",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "The terms, written so you can find the part you need.",
+      "header_size": "h1",
+      "_css_classes": "gt-h1"
+     },
+     "elements": []
+    },
+    {
+     "id": "b2c8a27",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Last updated: <span class=\"placeholder\" style=\"display:inline-block;padding:.2rem .6rem\">date required</span></p>",
+      "_css_classes": "gt-meta"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "e3621d7",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-section--flush-top",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "2b65b75",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"note-panel note-panel--placeholder\" style=\"max-width:none;margin-bottom:2rem\"><p class=\"note-panel__title\">Legal review required — do not publish</p><p>This page is a structure for the terms of service, written so that each section is clearly identified. The design system says the terms must exist before any payment is taken and must cover what happens when a payment fails and what the cancellation policy is. Every section below needs the real wording, reviewed by a solicitor. Nothing here is legal advice and nothing here should be treated as Gototherapy's actual terms until replaced.</p></div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "4e51acb",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<ol aria-label=\"Sections\" class=\"legal-toc\">\n<li><a href=\"#who\">1. Who we are and what this covers</a></li><li><a href=\"#directory\">2. What Gototherapy is and is not</a></li><li><a href=\"#visitors\">3. Using the directory as a visitor</a></li><li><a href=\"#members\">4. Membership for professionals</a></li><li><a href=\"#verification\">5. Verification and the badge</a></li><li><a href=\"#payments\">6. Payments, failed payments and cancellation</a></li><li><a href=\"#content\">7. Profile content and accuracy</a></li><li><a href=\"#removal\">8. Suspension and removal</a></li><li><a href=\"#liability\">9. Liability</a></li><li><a href=\"#complaints\">10. Complaints and disputes</a></li><li><a href=\"#changes\">11. Changes to these terms</a></li><li><a href=\"#law\">12. Governing law</a></li>\n</ol>"
+     },
+     "elements": []
+    },
+    {
+     "id": "d3d48c3",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "1. Who we are and what this covers",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "bb9e28c",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Content required</span>Legal entity name, company number, registered address, and the ICO registration reference. State that these terms apply to visitors and to professional members, and that members also accept the cancellation and refunds policy and the privacy policy.</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "9e3ef54",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "2. What Gototherapy is and is not",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "04bf7ba",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Gototherapy is a directory. It lists professionals whose registration, insurance and supervision have been checked by a person, per role, and prints what was checked. It does not provide therapy, does not employ the professionals listed, does not take part in the relationship between you and a therapist, and is not an emergency service.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "c806081",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Content required</span>Confirm the wording with legal counsel, including the statement that verification is a check of documents and register entries at a point in time and is not a recommendation or a guarantee of suitability.</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "598a878",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "3. Using the directory as a visitor",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "e2f264d",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Visitors do not need an account. Gototherapy does not carry an enquiry form and does not store messages about anybody's mental health. Contact with a professional happens directly between you and them.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "9b1ecb1",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Content required</span>Acceptable use, no scraping, no misrepresentation.</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "9dd8b7c",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "4. Membership for professionals",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "46b26a2",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Content required</span>Eligibility by role; the obligation to hold and maintain registration, insurance and supervision; the obligation to tell Gototherapy of changes; the annual recheck; consequences of lapsed documents (profile hidden until renewed).</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "2eccdf0",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "5. Verification and the badge",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "3eeddf5",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>The badge is conditional on role. Holding two roles means meeting both standards. Unregulated roles carry the printed caveat: “This is not a regulated profession in the UK, so there is no register to check.”</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "2ecf407",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Content required</span>What Gototherapy checks, how, and what it does not check; the right to remove a badge or profile if a check cannot be completed or a register entry changes.</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "6c19ace",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "6. Payments, failed payments and cancellation",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "327203f",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Content required — decision needed before first payment</span>Subscription term and renewal; the price and whether an annual option exists; payment via Stripe; what happens when a payment fails (retry schedule, grace period, when the profile is hidden); how to cancel; the refund position. This must match the <a href=\"/cancellation-and-refunds/\">cancellation and refunds policy</a> word for word.</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "26e16af",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "7. Profile content and accuracy",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "1d4d14a",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Content required</span>Members are responsible for their profile text; no claims of outcomes; no invented credentials; Gototherapy's right to edit or decline text that breaches these terms; photograph rules (a real photograph of the member, never stock).</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "a605882",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "8. Suspension and removal",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "ac89cd1",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Content required</span>Grounds and process for suspending or removing a listing, including register sanctions, lapsed insurance or supervision, and non-payment.</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "997cd89",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "9. Liability",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "6416bef",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Content required</span>Limitation of liability wording, reviewed by counsel, that does not exclude what cannot lawfully be excluded.</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "4ba6e1a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "10. Complaints and disputes",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "02da187",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>The complaints route is described on the <a href=\"/complaints/\">complaints page</a>.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "e966ece",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "11. Changes to these terms",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "6615d31",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Content required</span>How members are notified and how much notice is given.</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "42f505f",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "12. Governing law",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "7965463",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Content required</span>England and Wales, or as advised.</div>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ },
+ "version": "0.4",
+ "title": "Terms of Service | Gototherapy",
+ "type": "page"
+}

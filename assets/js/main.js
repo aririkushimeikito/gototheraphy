@@ -1,7 +1,9 @@
 /**
  * main.js — entry point. Loaded as a module on every page (deferred by
  * default). Marks the document as JS-capable, wires shared behaviours, then
- * loads the module a page asks for via <body data-page="…">.
+ * loads the module a page asks for via <body data-page="…">, or via any
+ * element carrying data-page (used when the markup lives inside a CMS widget,
+ * e.g. an Elementor HTML widget on WordPress).
  *
  * Content never depends on this file: every page is complete without it.
  */
@@ -19,7 +21,8 @@ initPasswordToggles();
 initYear();
 initHours();
 
-const page = document.body.getAttribute('data-page');
+const pageEl = document.body.hasAttribute('data-page') ? document.body : document.querySelector('[data-page]');
+const page = pageEl ? pageEl.getAttribute('data-page') : null;
 
 const routes = {
   home: async () => {
@@ -35,11 +38,11 @@ const routes = {
   },
   profile: async () => {
     const { initProfile } = await import('./profile.js');
-    initProfile(document.body);
+    initProfile(pageEl);
   },
   directory: async () => {
     const { initDirectory } = await import('./directory.js');
-    initDirectory(document.body);
+    initDirectory(pageEl);
   },
   join: async () => {
     const { initJoinFlow, initFileInputs } = await import('./forms.js');

@@ -1,0 +1,134 @@
+{
+ "content": [
+  {
+   "id": "0b7ef6b",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-hero",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "480f3b4",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Urgent support",
+      "header_size": "p",
+      "_css_classes": "gt-eyebrow gt-eyebrow--ember"
+     },
+     "elements": []
+    },
+    {
+     "id": "7c20431",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "If you need help now.",
+      "header_size": "h1",
+      "_css_classes": "gt-h1"
+     },
+     "elements": []
+    },
+    {
+     "id": "658b455",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Gototherapy is a directory of therapists, not an emergency service, and nobody here can respond to a message in a crisis. If you or someone else is in immediate danger, call 999. The contacts below are for other urgent situations and are laid out so you can find the right one quickly.</p>",
+      "_css_classes": "gt-answer"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "5ae616b",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-section--flush-top",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "ce6a030",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"crisis-block crisis-block--urgent\">\n<h2 class=\"crisis-block__title\">Immediate danger to life</h2>\n<p class=\"crisis-block__contact\">Call 999</p>\n<p>For an ambulance or the police, anywhere in the UK, at any time. If you cannot speak, 999 calls can still be connected; follow the operator's instructions.</p>\n</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "2cb17cd",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"crisis-block\">\n<h2 class=\"crisis-block__title\">Urgent but not life-threatening</h2>\n<p class=\"crisis-block__contact\">Call 111</p>\n<p>NHS 111 is available 24 hours a day in England, Scotland and Wales, and can direct you to urgent mental health help in your area.</p>\n</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "c70808d",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"crisis-block\">\n<h2 class=\"crisis-block__title\">Someone to talk to, at any hour</h2>\n<div class=\"placeholder\"><span class=\"placeholder__label\">Verified content required — do not publish</span>Insert the name, number and opening hours of each listening service the editorial team has verified directly with the organisation (for example national helplines for adults, for young people, and text-based services), with the date each was checked. Do not copy numbers from memory or from another website.</div>\n</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "77b6ad8",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"crisis-block\">\n<h2 class=\"crisis-block__title\">If you are already seeing a therapist</h2>\n<p>Your therapist will have told you what to do between sessions in an emergency. If you are not sure, use the contacts above first, and tell your therapist at the next session.</p>\n</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "9f65f84",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"crisis-block\">\n<h2 class=\"crisis-block__title\">Local crisis teams</h2>\n<div class=\"placeholder\"><span class=\"placeholder__label\">Verified content required</span>Insert how to reach local NHS urgent mental health services in each UK nation, with the date checked.</div>\n</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "992a0f7",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>This page is deliberately plain. It carries no photographs, no cards to hover and nothing that needs JavaScript. Review it every time the directory is rechecked.</p>",
+      "_css_classes": "gt-meta"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ },
+ "version": "0.4",
+ "title": "Urgent Support | Gototherapy",
+ "type": "page"
+}

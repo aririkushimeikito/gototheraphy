@@ -50,6 +50,7 @@ This regenerates the directory pages, re-injects header/footer, rewrites links a
 | `/404.html` | Not-found page (GitHub Pages picks this up automatically) |
 | `sitemap.xml`, `robots.txt`, `_redirects` | Technical SEO |
 | `SEO-IMPLEMENTATION.md` | URL strategy, indexing rules, schema, GEO/AEO |
+| `ELEMENTOR-IMPORT.md`, `elementor/`, `wordpress/` | Elementor Pro templates (header, footer, every page), child theme and import guide |
 | `BACKEND-INTEGRATION.md` | Every `BACKEND REQUIRED` point and the API contract the frontend expects |
 
 ### Folder structure

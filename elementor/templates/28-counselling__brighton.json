@@ -1,0 +1,629 @@
+{
+ "content": [
+  {
+   "id": "4ec8b45",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-hero",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "90b5cd3",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Counselling in Brighton, East Sussex",
+      "header_size": "p",
+      "_css_classes": "gt-eyebrow"
+     },
+     "elements": []
+    },
+    {
+     "id": "3e9fec3",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Therapists in Brighton whose checks you can read",
+      "header_size": "h1",
+      "_css_classes": "gt-h1"
+     },
+     "elements": []
+    },
+    {
+     "id": "d7c6afc",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Every therapist listed for Brighton has had their professional registration, insurance and supervision checked by a person at Gototherapy, and the checks are printed on their profile. You can filter by issue, choose online or in-person sessions, and contact a therapist directly. There are no reviews or ratings.</p>",
+      "_css_classes": "gt-answer"
+     },
+     "elements": []
+    },
+    {
+     "id": "c831e86",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"note-panel note-panel--placeholder\" style=\"margin-top:1.5rem\"><p class=\"note-panel__title\">Not yet indexed</p><p>This town page is <code>noindex</code> until it has its long-form section and three or more verified therapists. The threshold is computed at build time from the data.</p></div>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "87a13d9",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-section--flush-top",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "d48730d",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<!-- Functional block, kept verbatim. When the Gototherapy plugin is installed, replace with [gototherapy_therapist_grid] -->\n<div data-page=\"directory\">\n<div class=\"section__head section__head--split\">\n<h2 class=\"h2\">Verified therapists in Brighton</h2>\n<p class=\"lead\" data-directory-count=\"\">Loading verified profiles…</p>\n</div>\n</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "21e9e23",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<!-- Functional block, kept verbatim. When the Gototherapy plugin is installed, replace with [gototherapy_therapist_grid] -->\n<div class=\"profile-grid\" data-directory-results=\"\">\n<article class=\"card card--hover profile-card\">\n<div class=\"profile-card__badges\"><span class=\"badge badge--verified\"><svg aria-hidden=\"true\" class=\"icon\" viewbox=\"0 0 24 24\"><path d=\"M20 6 9 17l-5-5\"></path></svg><span>Register, insurance and supervision checked</span></span><span class=\"badge badge--demo\">Demo record</span></div>\n<div class=\"profile-card__top\">\n<span aria-hidden=\"true\" class=\"avatar\">TA</span>\n<div><h3 class=\"profile-card__name\"><a href=\"/therapist/demo-therapist-a/\">Demo Therapist A</a></h3><p class=\"profile-card__role\">Counsellor (demo record)</p></div>\n</div>\n<ul class=\"profile-card__meta\"><li><svg aria-hidden=\"true\" class=\"icon icon--sm\" viewbox=\"0 0 24 24\"><path d=\"M12 21s-6-5.2-6-10a6 6 0 0 1 12 0c0 4.8-6 10-6 10z\"></path><circle cx=\"12\" cy=\"11\" r=\"2\"></circle></svg><span>Brighton</span></li><li><svg aria-hidden=\"true\" class=\"icon icon--sm\" viewbox=\"0 0 24 24\"><rect height=\"12\" rx=\"2\" width=\"13\" x=\"3\" y=\"6\"></rect><path d=\"m16 10 5-3v10l-5-3z\"></path></svg><span>In person and Online</span></li></ul>\n<p class=\"profile-card__text\">Works with anxiety, relationships, work and stress.</p>\n</article><article class=\"card card--hover profile-card\">\n<div class=\"profile-card__badges\"><span class=\"badge badge--verified\"><svg aria-hidden=\"true\" class=\"icon\" viewbox=\"0 0 24 24\"><path d=\"M20 6 9 17l-5-5\"></path></svg><span>Register, insurance and supervision checked</span></span><span class=\"badge badge--demo\">Demo record</span></div>\n<div class=\"profile-card__top\">\n<span aria-hidden=\"true\" class=\"avatar\">TB</span>\n<div><h3 class=\"profile-card__name\"><a href=\"/therapist/demo-therapist-b/\">Demo Therapist B</a></h3><p class=\"profile-card__role\">Psychotherapist (demo record)</p></div>\n</div>\n<ul class=\"profile-card__meta\"><li><svg aria-hidden=\"true\" class=\"icon icon--sm\" viewbox=\"0 0 24 24\"><path d=\"M12 21s-6-5.2-6-10a6 6 0 0 1 12 0c0 4.8-6 10-6 10z\"></path><circle cx=\"12\" cy=\"11\" r=\"2\"></circle></svg><span>Brighton</span></li><li><svg aria-hidden=\"true\" class=\"icon icon--sm\" viewbox=\"0 0 24 24\"><rect height=\"12\" rx=\"2\" width=\"13\" x=\"3\" y=\"6\"></rect><path d=\"m16 10 5-3v10l-5-3z\"></path></svg><span>Online</span></li></ul>\n<p class=\"profile-card__text\">Works with anxiety, depression and low mood, bereavement and loss.</p>\n</article><article class=\"card card--hover profile-card\">\n<div class=\"profile-card__badges\"><span class=\"badge badge--verified\"><svg aria-hidden=\"true\" class=\"icon\" viewbox=\"0 0 24 24\"><path d=\"M20 6 9 17l-5-5\"></path></svg><span>Register, insurance and supervision checked</span></span><span class=\"badge badge--demo\">Demo record</span></div>\n<div class=\"profile-card__top\">\n<span aria-hidden=\"true\" class=\"avatar\">TE</span>\n<div><h3 class=\"profile-card__name\"><a href=\"/therapist/demo-therapist-e/\">Demo Therapist E</a></h3><p class=\"profile-card__role\">Counsellor (demo record)</p></div>\n</div>\n<ul class=\"profile-card__meta\"><li><svg aria-hidden=\"true\" class=\"icon icon--sm\" viewbox=\"0 0 24 24\"><path d=\"M12 21s-6-5.2-6-10a6 6 0 0 1 12 0c0 4.8-6 10-6 10z\"></path><circle cx=\"12\" cy=\"11\" r=\"2\"></circle></svg><span>Brighton</span></li><li><svg aria-hidden=\"true\" class=\"icon icon--sm\" viewbox=\"0 0 24 24\"><rect height=\"12\" rx=\"2\" width=\"13\" x=\"3\" y=\"6\"></rect><path d=\"m16 10 5-3v10l-5-3z\"></path></svg><span>In person and Online</span></li></ul>\n<p class=\"profile-card__text\">Works with anxiety, bereavement and loss, life changes.</p>\n</article>\n</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "26249de",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "_css_classes": "gt-actions",
+      "flex_direction_tablet": "row",
+      "flex_direction_mobile": "row",
+      "flex_align_items": "center",
+      "flex_gap": {
+       "column": "12",
+       "row": "12",
+       "unit": "px",
+       "size": 12
+      },
+      "flex_gap_tablet": {
+       "column": "32",
+       "row": "32",
+       "unit": "px",
+       "size": 32
+      },
+      "flex_wrap": "wrap"
+     },
+     "elements": [
+      {
+       "id": "3c90cb4",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Filter Brighton therapists by issue",
+        "link": {
+         "url": "/find-a-therapist/?location=brighton",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "_css_classes": "gt-button-ghost",
+        "size": "md"
+       },
+       "elements": []
+      },
+      {
+       "id": "f200472",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "About online counselling",
+        "link": {
+         "url": "/online-counselling/",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "_css_classes": "gt-button-ghost",
+        "size": "md"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "b86ce53",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-band",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    },
+    "background_background": "classic",
+    "background_color": "#EBE5DB"
+   },
+   "elements": [
+    {
+     "id": "6440285",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "_css_classes": "gt-row",
+      "flex_direction_tablet": "column",
+      "flex_direction_mobile": "column",
+      "flex_align_items": "center",
+      "flex_gap": {
+       "column": "48",
+       "row": "32",
+       "unit": "px",
+       "size": 48
+      },
+      "flex_gap_tablet": {
+       "column": "32",
+       "row": "32",
+       "unit": "px",
+       "size": 32
+      }
+     },
+     "elements": [
+      {
+       "id": "a9823fa",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 50.0
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "133d268",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Looking for a therapist in Brighton",
+          "header_size": "h2",
+          "_css_classes": "gt-h2"
+         },
+         "elements": []
+        },
+        {
+         "id": "f95d09e",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Looking for a therapist in Brighton is easier than in most towns of its size, and harder than it looks. There are a lot of practitioners, spread between the city centre, Hove, Kemptown and the villages along the Downs. Parking near the seafront is expensive and slow. Most people choose somewhere on a bus route or within a short walk of Brighton or Hove station, and many therapists offer early morning or evening hours because so many clients commute to London.</p><p>Brighton has two universities and a large student population, which means there are practitioners who work a great deal with people in their late teens and twenties. It also has a long-established LGBTQ+ community, and a number of therapists say plainly on their profiles that this is where much of their work sits. The creative and digital industries are a large local employer, and freelancers and people between contracts make up a noticeable part of many caseloads.</p><p>Online sessions are common here. Some people choose them because a lunchtime slot from a shared flat or a co-working space is easier than a journey across the city. Others start online with a therapist in Brighton and move to the room later, or keep working online when they leave for a job elsewhere. If the therapist you want to see is in Hove and you are in Saltdean, online may be the difference between going and not going.</p>",
+          "_css_classes": "gt-prose"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "7d87de8",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 50.0
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "7b3a99b",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://aririkushimeikito.github.io/gototheraphy/assets/images/hero-room-plants-1100.jpg",
+           "id": 0,
+           "alt": "A calm, plant-filled therapy room with two people talking, the kind of space you might find in Brighton",
+           "source": "library"
+          },
+          "image_size": "full",
+          "caption_source": "none",
+          "_css_classes": "gt-photo gt-photo--wide"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "12725b8",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "935fd16",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Common reasons people in Brighton look for therapy",
+      "header_size": "h2",
+      "_css_classes": "gt-h3"
+     },
+     "elements": []
+    },
+    {
+     "id": "ccd6b9c",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Issue pages combine the town with what you are looking for help with. Each one only appears once there are enough verified therapists to be useful.</p>",
+      "_css_classes": "gt-soft"
+     },
+     "elements": []
+    },
+    {
+     "id": "cc6c4ae",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<ul class=\"link-grid\" style=\"margin-top:1.25rem\"><li><a href=\"/counselling/brighton/anxiety/\">Anxiety in Brighton</a></li><li><a href=\"/counselling/brighton/depression/\">Depression and low mood in Brighton</a></li><li><a href=\"/counselling/brighton/bereavement/\">Bereavement and loss in Brighton</a></li><li><a href=\"/counselling/brighton/relationships/\">Relationships in Brighton</a></li><li><a href=\"/counselling/brighton/work-stress/\">Work and stress in Brighton</a></li><li><a href=\"/counselling/brighton/trauma/\">Trauma in Brighton</a></li><li><a href=\"/counselling/brighton/self-esteem/\">Self-esteem in Brighton</a></li><li><a href=\"/counselling/brighton/life-changes/\">Life changes in Brighton</a></li><li><a href=\"/counselling/brighton/young-people/\">Children and young people in Brighton</a></li></ul>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "a6aef15",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-section--flush-top",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "374646f",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "_css_classes": "gt-row gt-grid",
+      "flex_direction_tablet": "column",
+      "flex_direction_mobile": "column",
+      "flex_align_items": "center",
+      "flex_gap": {
+       "column": "48",
+       "row": "32",
+       "unit": "px",
+       "size": 48
+      },
+      "flex_gap_tablet": {
+       "column": "32",
+       "row": "32",
+       "unit": "px",
+       "size": 32
+      }
+     },
+     "elements": [
+      {
+       "id": "86c0d7c",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 33.33
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "447a992",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "_css_classes": "gt-card",
+          "flex_gap": {
+           "column": "20",
+           "row": "20",
+           "unit": "px",
+           "size": 20
+          }
+         },
+         "elements": [
+          {
+           "id": "efa9b55",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "How finding a therapist works",
+            "header_size": "h3",
+            "_css_classes": "gt-h3",
+            "link": {
+             "url": "/how-it-works/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "5246fa3",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>What a first session is like, what it costs, and how to tell whether it is the right fit.</p>",
+            "_css_classes": "gt-soft"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "130f4c4",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 33.33
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "27e961b",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "_css_classes": "gt-card",
+          "flex_gap": {
+           "column": "20",
+           "row": "20",
+           "unit": "px",
+           "size": 20
+          }
+         },
+         "elements": [
+          {
+           "id": "e0ec037",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "What was checked, and by whom",
+            "header_size": "h3",
+            "_css_classes": "gt-h3",
+            "link": {
+             "url": "/how-we-verify/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "c8703ed",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Registration, insurance and supervision, per role, rechecked every year.</p>",
+            "_css_classes": "gt-soft"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "eeeea35",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 33.33
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "31a888d",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "_css_classes": "gt-card",
+          "flex_gap": {
+           "column": "20",
+           "row": "20",
+           "unit": "px",
+           "size": 20
+          }
+         },
+         "elements": [
+          {
+           "id": "e8bc562",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Stories about starting therapy",
+            "header_size": "h3",
+            "_css_classes": "gt-h3",
+            "link": {
+             "url": "/stories/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "ad69a1b",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Short, honest pieces about the first email, the first session, and paying for it.</p>",
+            "_css_classes": "gt-soft"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ },
+ "version": "0.4",
+ "title": "Counselling in Brighton | Verified Therapists | Gototherapy",
+ "type": "page"
+}

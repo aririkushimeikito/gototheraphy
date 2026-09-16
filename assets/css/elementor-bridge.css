@@ -1,0 +1,99 @@
+/* ==========================================================================
+   Gototherapy — Elementor bridge
+   Maps Elementor Pro widget output onto the design system so the templates
+   in /elementor/ render with the same tokens, type and components as the
+   static site. Loaded after the six design-system sheets. No !important.
+   Scoped two classes deep to beat `.elementor-kit-N h2` (design system, p.7).
+   ========================================================================== */
+
+/* Ground and measure */
+body.gt { background: var(--paper); color: var(--ink); font-family: var(--font-ui); }
+body.gt .elementor-section.elementor-section-boxed > .elementor-container,
+body.gt .e-con-boxed > .e-con-inner { max-width: var(--wrap); }
+body.gt .e-con { --padding-block-start: 0; --padding-block-end: 0; }
+
+/* Headings: the widget adds its own element; the class on the widget wrapper carries the scale */
+body.gt .elementor-widget-heading .elementor-heading-title { font-family: var(--font-display); font-weight: 400; margin: 0; text-wrap: balance; letter-spacing: -.035em; line-height: 1.05; color: inherit; }
+body.gt .elementor-widget-heading.gt-h1 .elementor-heading-title { font-size: var(--fs-hero); letter-spacing: -.04em; max-width: var(--measure-h1); line-height: 1.02; }
+body.gt .elementor-widget-heading.gt-h2 .elementor-heading-title { font-size: var(--fs-h2); max-width: var(--measure-h2); }
+body.gt .elementor-widget-heading.gt-h3 .elementor-heading-title { font-size: var(--fs-h3); letter-spacing: -.025em; line-height: 1.15; max-width: 28ch; }
+body.gt .elementor-widget-heading.gt-eyebrow .elementor-heading-title { font-family: var(--font-ui); font-size: var(--fs-meta); font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-mute); }
+body.gt .elementor-widget-heading.gt-eyebrow--ember .elementor-heading-title { color: var(--clay-ink); }
+body.gt .elementor-widget-heading .elementor-heading-title em { font-style: italic; }
+
+/* Text */
+body.gt .elementor-widget-text-editor { font-size: var(--fs-body); line-height: 1.65; color: var(--ink); }
+body.gt .elementor-widget-text-editor.gt-lead { font-size: var(--fs-lead); line-height: 1.5; color: var(--ink-soft); max-width: var(--measure-lead); }
+body.gt .elementor-widget-text-editor.gt-answer { font-size: var(--fs-lead); line-height: 1.55; max-width: var(--measure-lead); }
+body.gt .elementor-widget-text-editor.gt-prose, body.gt .e-con.gt-prose { max-width: var(--measure-body); }
+body.gt .elementor-widget-text-editor.gt-soft { color: var(--ink-soft); }
+body.gt .elementor-widget-text-editor.gt-meta { font-size: var(--fs-meta); color: var(--ink-mute); }
+body.gt .elementor-widget-text-editor p { margin: 0 0 1.1em; }
+body.gt .elementor-widget-text-editor p:last-child { margin-bottom: 0; }
+body.gt .elementor-widget-text-editor a { color: var(--slate); }
+
+/* Buttons: widget wrapper carries gt-button-* ; the anchor gets the pill */
+body.gt .elementor-widget-button .elementor-button { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: var(--tap); padding: .65rem 1.4rem; border-radius: var(--r-pill); border: 1px solid transparent; font-family: var(--font-ui); font-weight: 500; font-size: var(--fs-small); line-height: 1.2; background: var(--slate); color: var(--paper); transition: transform var(--t-hover) var(--ease), box-shadow var(--t-hover) var(--ease), background-color var(--t-hover) var(--ease), border-color var(--t-hover) var(--ease); }
+body.gt .elementor-widget-button .elementor-button:hover { transform: translateY(-2px); background: var(--slate-deep); box-shadow: var(--shadow-s); color: var(--paper); }
+body.gt .elementor-widget-button.gt-button-ghost .elementor-button { background: transparent; border-color: var(--line-strong); color: var(--ink); }
+body.gt .elementor-widget-button.gt-button-ghost .elementor-button:hover { background: transparent; border-color: var(--ink); box-shadow: none; }
+body.gt .gt-dark .elementor-widget-button.gt-button-ghost .elementor-button { color: var(--on-navy); border-color: var(--line-on-dark); }
+body.gt .gt-dark .elementor-widget-button.gt-button-ghost .elementor-button:hover { border-color: var(--on-navy); }
+body.gt .elementor-widget-button.gt-button-quiet .elementor-button { background: transparent; color: var(--slate); padding-inline: .75rem; }
+body.gt .elementor-widget-button.gt-button-quiet .elementor-button:hover { background: var(--paper-deep); transform: none; box-shadow: none; }
+
+/* Sections */
+body.gt .gt-section { padding-block: var(--section); }
+body.gt .gt-section--tight { padding-block: var(--section-tight); }
+body.gt .gt-section--flush-top { padding-top: 0; }
+body.gt .gt-band { background: var(--paper-deep); }
+body.gt .gt-dark { background: var(--navy); color: var(--on-navy); }
+body.gt .gt-dark .elementor-widget-text-editor, body.gt .gt-dark .elementor-widget-heading .elementor-heading-title { color: var(--on-navy); }
+body.gt .gt-dark .elementor-widget-text-editor.gt-lead, body.gt .gt-dark .elementor-widget-text-editor.gt-soft { color: var(--on-navy-soft); }
+body.gt .gt-dark .elementor-widget-heading.gt-eyebrow .elementor-heading-title, body.gt .gt-dark .elementor-widget-text-editor.gt-meta { color: var(--on-navy-mute); }
+body.gt .gt-dark .elementor-widget-text-editor a { color: var(--on-navy); }
+
+/* Images */
+body.gt .elementor-widget-image.gt-photo img { border-radius: var(--r-card); width: 100%; height: 100%; object-fit: cover; }
+body.gt .elementor-widget-image.gt-photo--panel img { border-radius: var(--r-panel); }
+body.gt .elementor-widget-image.gt-photo--wide img { aspect-ratio: 16 / 10; }
+body.gt .elementor-widget-image.gt-photo--square img { aspect-ratio: 1; }
+
+/* Cards as containers */
+body.gt .e-con.gt-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-card); box-shadow: var(--shadow-s); padding: clamp(1.25rem, 3vw, 2rem); transition: transform var(--t-hover) var(--ease), box-shadow var(--t-hover) var(--ease), border-color var(--t-hover) var(--ease); }
+body.gt .e-con.gt-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-m); border-color: var(--sky); }
+body.gt .e-con.gt-note-panel { background: var(--wash); border-left: 2.5pt solid var(--clay); border-radius: 0 var(--r-card) var(--r-card) 0; padding: 1.25rem 1.5rem; }
+
+/* Accordion → faq */
+body.gt .elementor-widget-accordion .elementor-accordion .elementor-accordion-item { border: 0; border-bottom: 1px solid var(--line); }
+body.gt .elementor-widget-accordion .elementor-accordion .elementor-accordion-item:first-child { border-top: 1px solid var(--line); }
+body.gt .elementor-widget-accordion .elementor-tab-title { font-family: var(--font-display); font-size: var(--fs-h3); letter-spacing: -.02em; line-height: 1.2; padding: 1.15rem 0; color: var(--ink); }
+body.gt .elementor-widget-accordion .elementor-tab-title .elementor-accordion-icon { color: var(--ink-mute); }
+body.gt .elementor-widget-accordion .elementor-tab-content { border: 0; padding: 0 0 1.5rem; color: var(--ink-soft); max-width: 62ch; font-size: var(--fs-body); line-height: 1.65; }
+
+/* Header (Theme Builder) */
+body.gt .gt-header { position: sticky; top: 0; z-index: var(--z-header); background: rgba(245, 242, 236, .92); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line-soft); }
+body.gt .gt-header .elementor-widget-heading.gt-brand .elementor-heading-title { font-family: var(--font-display); font-size: 1.85rem; letter-spacing: -.035em; line-height: 1; }
+body.gt .gt-header .elementor-widget-heading.gt-brand .elementor-heading-title a { color: var(--ink); text-decoration: none; }
+body.gt .gt-header .elementor-widget-heading.gt-brand .elementor-heading-title span { color: var(--clay-ink); }
+body.gt .gt-header .elementor-nav-menu--main .elementor-item { font-family: var(--font-ui); font-weight: 500; font-size: var(--fs-small); color: var(--ink-soft); padding: 0 .85rem; min-height: var(--tap); border-radius: var(--r-pill); white-space: nowrap; }
+body.gt .gt-header .elementor-nav-menu--main .elementor-item:hover, body.gt .gt-header .elementor-nav-menu--main .elementor-item.elementor-item-active { color: var(--ink); background: var(--paper-deep); }
+body.gt .gt-header .elementor-menu-toggle { min-width: var(--tap); min-height: var(--tap); border: 1px solid var(--line); border-radius: var(--r-pill); color: var(--ink); background: transparent; }
+body.gt .gt-header .elementor-nav-menu--dropdown { background: var(--paper); border-bottom: 1px solid var(--line); box-shadow: var(--shadow-l); }
+body.gt .gt-header .elementor-nav-menu--dropdown .elementor-item { font-family: var(--font-display); font-size: 1.75rem; letter-spacing: -.02em; color: var(--ink); min-height: 3.5rem; border-bottom: 1px solid var(--line); }
+
+/* Footer (Theme Builder) */
+body.gt .gt-footer { background: var(--navy); color: var(--on-navy-soft); padding-block: clamp(3.5rem, 8vw, 6rem) 2rem; }
+body.gt .gt-footer .elementor-widget-heading .elementor-heading-title { font-family: var(--font-ui); font-size: var(--fs-meta); font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--on-navy-mute); }
+body.gt .gt-footer .elementor-widget-heading.gt-brand .elementor-heading-title { font-family: var(--font-display); font-size: 1.85rem; letter-spacing: -.035em; text-transform: none; color: var(--on-navy); }
+body.gt .gt-footer .elementor-widget-heading.gt-brand .elementor-heading-title span { color: var(--on-navy-mute); }
+body.gt .gt-footer .elementor-widget-text-editor { color: var(--on-navy-soft); }
+body.gt .gt-footer .elementor-icon-list-item a, body.gt .gt-footer a { color: var(--on-navy); text-decoration: none; }
+body.gt .gt-footer .elementor-icon-list-item a:hover { text-decoration: underline; }
+body.gt .gt-footer .elementor-icon-list-items .elementor-icon-list-item { min-height: var(--tap); }
+body.gt .gt-footer .e-con.gt-crisis { border-left: 2.5pt solid var(--clay); background: rgba(243, 239, 232, .06); border-radius: 0 var(--r-card) var(--r-card) 0; padding: 1.25rem 1.5rem; max-width: 62ch; }
+body.gt .gt-footer .gt-footer-bottom { border-top: 1px solid var(--line-on-dark); padding-top: 1.5rem; font-size: var(--fs-meta); color: var(--on-navy-mute); }
+
+/* HTML widgets carrying the platform blocks inherit everything from the design system.
+   Give them a full-width block so internal grids can breathe. */
+body.gt .elementor-widget-html { width: 100%; }

@@ -1,0 +1,248 @@
+{
+ "content": [
+  {
+   "id": "71939b5",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-hero",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "2ad6074",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Stories",
+      "header_size": "p",
+      "_css_classes": "gt-eyebrow"
+     },
+     "elements": []
+    },
+    {
+     "id": "dce1118",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Written for somebody who has been putting this off.",
+      "header_size": "h1",
+      "_css_classes": "gt-h1"
+     },
+     "elements": []
+    },
+    {
+     "id": "813830d",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Stories are short, plain pieces about starting therapy in the UK: what a first session is actually like, how much it costs and how to ask, whether online works, and how to tell if it is doing anything. Each one opens with a direct answer you can take away on its own. None of them is a testimonial, and none is a substitute for talking to a professional.</p>",
+      "_css_classes": "gt-answer"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "29e7c6b",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-section--flush-top",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "3182e4e",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<ul class=\"article-list\">\n<li class=\"article-list__item\">\n<p class=\"meta\">Starting · 6 min read</p>\n<div><h2 class=\"h3\"><a href=\"/stories/what-happens-in-a-first-therapy-session/\" style=\"color:inherit;text-decoration:none\">What happens in a first therapy session?</a></h2><p class=\"soft\" style=\"margin:.5rem 0 0;max-width:60ch\">What the first hour is actually for, what a therapist is likely to ask, and why you do not have to decide anything in the room.</p></div>\n</li>\n<li class=\"article-list__item\">\n<p class=\"meta\">Money · 6 min read</p>\n<div><h2 class=\"h3\"><a href=\"/stories/how-much-does-therapy-cost-in-the-uk/\" style=\"color:inherit;text-decoration:none\">How much does therapy cost in the UK?</a></h2><p class=\"soft\" style=\"margin:.5rem 0 0;max-width:60ch\">How private fees are set, what affects them, what is free on the NHS, and how to ask about cost without embarrassment.</p></div>\n</li>\n<li class=\"article-list__item\">\n<p class=\"meta\">Online · 5 min read</p>\n<div><h2 class=\"h3\"><a href=\"/stories/can-i-have-therapy-online/\" style=\"color:inherit;text-decoration:none\">Can I have therapy online?</a></h2><p class=\"soft\" style=\"margin:.5rem 0 0;max-width:60ch\">Who online counselling suits, what changes when the room is a screen, and how to set it up so it works.</p></div>\n</li>\n<li class=\"article-list__item\">\n<p class=\"meta\">Keeping going · 6 min read</p>\n<div><h2 class=\"h3\"><a href=\"/stories/how-do-i-know-if-therapy-is-working/\" style=\"color:inherit;text-decoration:none\">How do I know if therapy is working?</a></h2><p class=\"soft\" style=\"margin:.5rem 0 0;max-width:60ch\">It rarely feels like progress from the inside. What to look for, what to say to your therapist, and when to stop.</p></div>\n</li>\n</ul>"
+     },
+     "elements": []
+    },
+    {
+     "id": "349d987",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Stories are the site's article surface. The address <code>/articles/</code> redirects here. See SEO-IMPLEMENTATION.md.</p>",
+      "_css_classes": "gt-meta"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "3f84d30",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-dark",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    },
+    "background_background": "classic",
+    "background_color": "#2B2520"
+   },
+   "elements": [
+    {
+     "id": "4dab468",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "_css_classes": "gt-row",
+      "flex_direction_tablet": "column",
+      "flex_direction_mobile": "column",
+      "flex_align_items": "center",
+      "flex_gap": {
+       "column": "48",
+       "row": "32",
+       "unit": "px",
+       "size": 48
+      },
+      "flex_gap_tablet": {
+       "column": "32",
+       "row": "32",
+       "unit": "px",
+       "size": 32
+      }
+     },
+     "elements": [
+      {
+       "id": "a76cc0b",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 50.0
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "e9ff907",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "When you are ready, the directory is there.",
+          "header_size": "h2",
+          "_css_classes": "gt-h2"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "e1ceb37",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 50.0
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "57aaf89",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "Find a therapist",
+          "link": {
+           "url": "/find-a-therapist/",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "_css_classes": "gt-button-ghost",
+          "size": "md"
+         },
+         "elements": []
+        },
+        {
+         "id": "691052b",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "How it works",
+          "link": {
+           "url": "/how-it-works/",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "_css_classes": "gt-button-ghost",
+          "size": "md"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ },
+ "version": "0.4",
+ "title": "Stories About Starting Therapy | Gototherapy",
+ "type": "page"
+}

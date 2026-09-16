@@ -1,0 +1,263 @@
+[
+ {
+  "file": "01-home.json",
+  "wordpress_slug": "",
+  "path": "/",
+  "title": "Find a Therapist in the UK | Verified | Gototherapy",
+  "description": "Find a therapist in the UK who has actually been checked. Registration, insurance and supervision are verified by a person before anyone is listed.",
+  "robots": "index, follow",
+  "html_widgets": 5
+ },
+ {
+  "file": "02-find-a-therapist.json",
+  "wordpress_slug": "find-a-therapist",
+  "path": "/find-a-therapist/",
+  "title": "Browse Verified Therapists in the UK | Gototherapy",
+  "description": "Browse verified therapists across the UK and filter by issue, location or online sessions. Every listing is checked against their professional register.",
+  "robots": "index, follow",
+  "html_widgets": 3
+ },
+ {
+  "file": "03-how-it-works.json",
+  "wordpress_slug": "how-it-works",
+  "path": "/how-it-works/",
+  "title": "How to Find a Therapist in the UK | Gototherapy",
+  "description": "How to find a therapist in the UK, step by step. What a first session is actually like, what it costs, and how to tell whether it is the right fit.",
+  "robots": "index, follow",
+  "html_widgets": 1
+ },
+ {
+  "file": "04-how-we-verify.json",
+  "wordpress_slug": "how-we-verify",
+  "path": "/how-we-verify/",
+  "title": "How We Verify Every Therapist | Gototherapy",
+  "description": "How therapist verification works at Gototherapy. Registration, insurance and supervision are checked by a person, per role, and rechecked every year.",
+  "robots": "index, follow",
+  "html_widgets": 4
+ },
+ {
+  "file": "05-online-counselling.json",
+  "wordpress_slug": "online-counselling",
+  "path": "/online-counselling/",
+  "title": "Online Counselling in the UK | Verified | Gototherapy",
+  "description": "Online counselling with verified UK therapists, by video or phone. Who it suits, what changes when the room is a screen, and how to set it up so it works.",
+  "robots": "index, follow",
+  "html_widgets": 1
+ },
+ {
+  "file": "06-stories.json",
+  "wordpress_slug": "stories",
+  "path": "/stories/",
+  "title": "Stories About Starting Therapy | Gototherapy",
+  "description": "Short, honest pieces about starting therapy in the UK. What it costs, what a first session is like, and how to tell whether it is actually working.",
+  "robots": "index, follow",
+  "html_widgets": 1
+ },
+ {
+  "file": "07-about.json",
+  "wordpress_slug": "about",
+  "path": "/about/",
+  "title": "About Gototherapy | A Directory You Can Check",
+  "description": "Why Gototherapy exists: a UK therapist directory where a person checks every registration, there are no reviews or ratings, and the checks are printed.",
+  "robots": "index, follow",
+  "html_widgets": 2
+ },
+ {
+  "file": "08-join.json",
+  "wordpress_slug": "join",
+  "path": "/join/",
+  "title": "Join a Verified Therapist Directory | Gototherapy",
+  "description": "Apply to join Gototherapy in six questions. A person checks your registration against your professional register, and nobody pays before acceptance.",
+  "robots": "index, follow",
+  "html_widgets": 1
+ },
+ {
+  "file": "09-login.json",
+  "wordpress_slug": "login",
+  "path": "/login/",
+  "title": "Log In | Gototherapy",
+  "description": "Log in to your Gototherapy member account to update your profile, fees and availability, and to keep the details behind your verification current.",
+  "robots": "noindex, follow",
+  "html_widgets": 2
+ },
+ {
+  "file": "10-account.json",
+  "wordpress_slug": "account",
+  "path": "/account/",
+  "title": "Your Member Account | Gototherapy",
+  "description": "Manage your Gototherapy listing in one place: your profile, fees, availability and the documents behind your verification, rechecked every year.",
+  "robots": "noindex, nofollow",
+  "html_widgets": 3
+ },
+ {
+  "file": "11-thank-you.json",
+  "wordpress_slug": "thank-you",
+  "path": "/thank-you/",
+  "title": "Application Received | Gototherapy",
+  "description": "Your application to join Gototherapy has been received. What happens next: a person checks your register entry, insurance, supervision and identity, then emails you.",
+  "robots": "noindex, follow",
+  "html_widgets": 3
+ },
+ {
+  "file": "12-pricing.json",
+  "wordpress_slug": "pricing",
+  "path": "/pricing/",
+  "title": "Membership and Pricing for Professionals | Gototherapy",
+  "description": "What Gototherapy membership costs for counsellors, psychotherapists and supervisors, what every check includes, and what featured placement means.",
+  "robots": "index, follow",
+  "html_widgets": 2
+ },
+ {
+  "file": "13-counselling.json",
+  "wordpress_slug": "counselling",
+  "path": "/counselling/",
+  "title": "Counselling by Town and Issue | Gototherapy",
+  "description": "Browse verified counselling by UK town, by the issue you want help with, or both together. Every therapist is checked against their professional register by a person.",
+  "robots": "index, follow",
+  "html_widgets": 4
+ },
+ {
+  "file": "14-crisis.json",
+  "wordpress_slug": "crisis",
+  "path": "/crisis/",
+  "title": "Urgent Support | Gototherapy",
+  "description": "If you need help right now: where to turn in the UK, laid out so it can be read quickly. Gototherapy is a directory, not an emergency service.",
+  "robots": "noindex, follow",
+  "html_widgets": 5
+ },
+ {
+  "file": "15-complaints.json",
+  "wordpress_slug": "complaints",
+  "path": "/complaints/",
+  "title": "Complaints | Gototherapy",
+  "description": "How to raise a concern about Gototherapy or about a professional listed here, and how the registers handle complaints about registered practitioners.",
+  "robots": "noindex, follow",
+  "html_widgets": 2
+ },
+ {
+  "file": "16-terms.json",
+  "wordpress_slug": "terms",
+  "path": "/terms/",
+  "title": "Terms of Service | Gototherapy",
+  "description": "The terms that apply to visitors using the Gototherapy directory and to professional members, including verification, payments, cancellation and removal.",
+  "robots": "noindex, follow",
+  "html_widgets": 13
+ },
+ {
+  "file": "17-privacy.json",
+  "wordpress_slug": "privacy",
+  "path": "/privacy/",
+  "title": "Privacy Policy | Gototherapy",
+  "description": "How Gototherapy handles personal data: almost nothing about visitors, and the registration, insurance and identity records behind each professional member.",
+  "robots": "noindex, follow",
+  "html_widgets": 11
+ },
+ {
+  "file": "18-cancellation-and-refunds.json",
+  "wordpress_slug": "cancellation-and-refunds",
+  "path": "/cancellation-and-refunds/",
+  "title": "Cancellation and Refunds | Gototherapy",
+  "description": "How to cancel Gototherapy membership, when it takes effect, what is refunded, and what happens when a payment fails.",
+  "robots": "noindex, follow",
+  "html_widgets": 7
+ },
+ {
+  "file": "19-supervisors.json",
+  "wordpress_slug": "supervisors",
+  "path": "/supervisors/",
+  "title": "Clinical Supervisors in the UK | Verified | Gototherapy",
+  "description": "Browse verified clinical supervisors in the UK. Each has had their register entry, insurance and supervision training checked by a person and rechecked every year.",
+  "robots": "index, follow",
+  "html_widgets": 1
+ },
+ {
+  "file": "20-coaches.json",
+  "wordpress_slug": "coaches",
+  "path": "/coaches/",
+  "title": "Wellbeing Coaches in the UK | Checked | Gototherapy",
+  "description": "Browse wellbeing coaches in the UK whose insurance and identity have been checked by a person. Coaching is not regulated, and every profile says so plainly.",
+  "robots": "index, follow",
+  "html_widgets": 1
+ },
+ {
+  "file": "21-trainers.json",
+  "wordpress_slug": "trainers",
+  "path": "/trainers/",
+  "title": "Counselling Trainers in the UK | Verified | Gototherapy",
+  "description": "Browse verified counselling and psychotherapy trainers in the UK. Register entry, insurance and identity are checked by a person and rechecked every year.",
+  "robots": "index, follow",
+  "html_widgets": 1
+ },
+ {
+  "file": "22-training-providers.json",
+  "wordpress_slug": "training-providers",
+  "path": "/training-providers/",
+  "title": "Counselling Training Providers UK | Gototherapy",
+  "description": "Browse counselling and psychotherapy training providers in the UK whose course accreditation and insurance have been checked by a person.",
+  "robots": "index, follow",
+  "html_widgets": 1
+ },
+ {
+  "file": "23-stories__what-happens-in-a-first-therapy-session.json",
+  "wordpress_slug": "what-happens-in-a-first-therapy-session",
+  "path": "/stories/what-happens-in-a-first-therapy-session/",
+  "title": "What happens in a first therapy session? | Gototherapy",
+  "description": "What a first therapy session is actually for, what the therapist is likely to ask, what to ask them, and why nothing has to be decided in the room.",
+  "robots": "index, follow",
+  "html_widgets": 5
+ },
+ {
+  "file": "24-stories__how-do-i-know-if-therapy-is-working.json",
+  "wordpress_slug": "how-do-i-know-if-therapy-is-working",
+  "path": "/stories/how-do-i-know-if-therapy-is-working/",
+  "title": "How do I know if therapy is working? | Gototherapy",
+  "description": "Progress in therapy rarely feels like progress from the inside. The signs to look for after a month, what to say to your therapist, and when to stop.",
+  "robots": "index, follow",
+  "html_widgets": 5
+ },
+ {
+  "file": "25-stories__can-i-have-therapy-online.json",
+  "wordpress_slug": "can-i-have-therapy-online",
+  "path": "/stories/can-i-have-therapy-online/",
+  "title": "Can I have therapy online? | Gototherapy",
+  "description": "Online counselling with a verified UK therapist: who it suits, video or phone, what changes when the room is a screen, and how to set it up so it works.",
+  "robots": "index, follow",
+  "html_widgets": 5
+ },
+ {
+  "file": "26-stories__how-much-does-therapy-cost-in-the-uk.json",
+  "wordpress_slug": "how-much-does-therapy-cost-in-the-uk",
+  "path": "/stories/how-much-does-therapy-cost-in-the-uk/",
+  "title": "How much does therapy cost in the UK? | Gototherapy",
+  "description": "How private therapy fees are set in the UK, what affects them, how to ask about cost without embarrassment, and what is free on the NHS.",
+  "robots": "index, follow",
+  "html_widgets": 5
+ },
+ {
+  "file": "27-therapist__demo-therapist-a.json",
+  "wordpress_slug": "demo-therapist-a",
+  "path": "/therapist/demo-therapist-a/",
+  "title": "Demo Therapist A, Counsellor in Brighton | Gototherapy",
+  "description": "Demo Therapist A, counsellor in Brighton. Register, insurance and supervision checked. Read who they work with, what sessions are like, and what to know be",
+  "robots": "noindex, follow",
+  "html_widgets": 7
+ },
+ {
+  "file": "28-counselling__brighton.json",
+  "wordpress_slug": "brighton",
+  "path": "/counselling/brighton/",
+  "title": "Counselling in Brighton | Verified Therapists | Gototherapy",
+  "description": "Find verified counsellors and psychotherapists in Brighton. Every therapist listed has had their registration, insurance and supervision checked by a person.",
+  "robots": "noindex, follow",
+  "html_widgets": 4
+ },
+ {
+  "file": "29-counselling__anxiety.json",
+  "wordpress_slug": "anxiety",
+  "path": "/counselling/anxiety/",
+  "title": "Anxiety Counselling UK | Verified Therapists | Gototherapy",
+  "description": "Verified UK therapists who work with anxiety. What it can feel like, when it is worth talking to somebody, and what a first session tends to cover.",
+  "robots": "noindex, follow",
+  "html_widgets": 5
+ }
+]

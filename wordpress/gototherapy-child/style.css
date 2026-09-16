@@ -1,0 +1,8 @@
+/*
+Theme Name: Gototherapy Child
+Description: Child theme that carries the Gototherapy design system (Stone & Ember) and the platform frontend scripts for use with Elementor Pro. Parent: Hello Elementor.
+Template: hello-elementor
+Version: 1.0.0
+Text Domain: gototherapy
+*/
+/* All styling lives in assets/css/*.css and assets/css/elementor-bridge.css, enqueued from functions.php. */

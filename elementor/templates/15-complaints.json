@@ -1,0 +1,160 @@
+{
+ "content": [
+  {
+   "id": "ca17601",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-hero",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "1e5d490",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Complaints",
+      "header_size": "p",
+      "_css_classes": "gt-eyebrow"
+     },
+     "elements": []
+    },
+    {
+     "id": "340494b",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "If something is wrong, this is the route.",
+      "header_size": "h1",
+      "_css_classes": "gt-h1"
+     },
+     "elements": []
+    },
+    {
+     "id": "35ec2da",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>There are two kinds of complaint. A complaint about Gototherapy itself, such as a listing that is out of date or a check that appears not to have been done, comes to us. A complaint about a registered professional's conduct or practice goes to their professional register, which has the power to investigate and to remove them. Gototherapy will tell you which register that is and will act on the outcome.</p>",
+      "_css_classes": "gt-answer"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "78c7632",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-section--flush-top",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "47d301a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "About Gototherapy or a listing",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "233f4d0",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Content required — do not publish</span>Insert the complaints email address, what to include, who reads it, and the response time Gototherapy commits to. Do not state a response time that nothing measures.</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "5743bf2",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "About a professional's conduct",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "b672850",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Every therapist, supervisor and trainer listed here is registered with a professional body, and that body runs the complaints process for its members. The register is named on the profile. If a complaint results in a sanction or removal from the register, the profile is removed from Gototherapy.</p>",
+      "_css_classes": ""
+     },
+     "elements": []
+    },
+    {
+     "id": "882161d",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Coaches and training providers are not regulated in the UK and have no register. A concern about a coach listed here comes to Gototherapy directly.</p>",
+      "_css_classes": ""
+     },
+     "elements": []
+    },
+    {
+     "id": "b80a1e9",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Content required</span>Insert links to the complaints procedures of each professional body Gototherapy accepts, with the date each link was checked.</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "ad8cdad",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "If you need help now",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "c4ccd40",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>The complaints route is not for emergencies. See <a href=\"/crisis/\">urgent support</a>.</p>",
+      "_css_classes": ""
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ },
+ "version": "0.4",
+ "title": "Complaints | Gototherapy",
+ "type": "page"
+}

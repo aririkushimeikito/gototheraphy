@@ -1,0 +1,249 @@
+{
+ "content": [
+  {
+   "id": "19a285e",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-hero",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "7ad909f",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Cancellation and Refunds",
+      "header_size": "p",
+      "_css_classes": "gt-eyebrow"
+     },
+     "elements": []
+    },
+    {
+     "id": "03fdd9e",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Cancelling, refunds, and what happens when a payment fails.",
+      "header_size": "h1",
+      "_css_classes": "gt-h1"
+     },
+     "elements": []
+    },
+    {
+     "id": "4a62bce",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Last updated: <span class=\"placeholder\" style=\"display:inline-block;padding:.2rem .6rem\">date required</span></p>",
+      "_css_classes": "gt-meta"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "d28cbc9",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight gt-section--flush-top",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "d7361c5",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"note-panel note-panel--placeholder\" style=\"max-width:none;margin-bottom:2rem\"><p class=\"note-panel__title\">Decision and legal review required — do not publish</p><p>A subscription needs a cancellation and refund policy before the first payment is taken, and the design system says to decide it before then rather than after. The sections below name each decision. Where the interface shows a state (past due, cancelled, unpaid), the words here must match what the account page tells the member.</p></div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "c8a4b57",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<ol aria-label=\"Sections\" class=\"legal-toc\">\n<li><a href=\"#cancel\">1. How to cancel</a></li><li><a href=\"#when\">2. When cancellation takes effect</a></li><li><a href=\"#refunds\">3. Refunds</a></li><li><a href=\"#failed\">4. Failed payments</a></li><li><a href=\"#verification\">5. What happens to your verification</a></li><li><a href=\"#gototherapy\">6. Cancellation by Gototherapy</a></li><li><a href=\"#contact\">7. Questions</a></li>\n</ol>"
+     },
+     "elements": []
+    },
+    {
+     "id": "bc9fa65",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "1. How to cancel",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "c00537e",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>You cancel from the Billing section of your <a href=\"/account/\">member account</a>, which uses the Stripe Billing Portal. There is no notice period to serve and nobody to phone.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "8b3c48d",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "2. When cancellation takes effect",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "2ae89b9",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Decision required</span>The prototype assumes: your profile stays listed until the end of the period already paid for, then is removed from search. Confirm, or change the account interface to match.</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "c1ffb01",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "3. Refunds",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "3ce94e1",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Decision required</span>Whether any part of a monthly or annual payment is refunded on cancellation; the position for the 14-day cooling-off period where the Consumer Contracts Regulations apply; how refunds are processed (Stripe refund to the original card) and how long they take.</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "af40846",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "4. Failed payments",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "1c58790",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Decision required</span>Retry schedule (Stripe Smart Retries), the grace period during which the profile stays listed while the subscription is past due, the point at which it becomes unpaid and the profile is hidden, and whether the subscription is then cancelled automatically.</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "dd2cfb8",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "5. What happens to your verification",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "a5f1b46",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Your verification record is kept when you cancel, so that you can return without repeating every check, subject to the expiry dates of the documents involved and the annual recheck.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "1595919",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Decision required</span>How long a lapsed member's verification record is retained. Must agree with the privacy policy.</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "cb589f6",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "6. Cancellation by Gototherapy",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "aec38bc",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"placeholder\"><span class=\"placeholder__label\">Content required</span>Circumstances in which Gototherapy ends a membership (register sanction, lapsed documents not renewed, breach of terms) and whether any refund applies.</div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "acf836e",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "7. Questions",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "d5a148f",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Use the route on the <a href=\"/complaints/\">complaints page</a>.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ },
+ "version": "0.4",
+ "title": "Cancellation and Refunds | Gototherapy",
+ "type": "page"
+}

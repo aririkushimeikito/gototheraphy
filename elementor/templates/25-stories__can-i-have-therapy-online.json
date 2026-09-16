@@ -1,0 +1,614 @@
+{
+ "content": [
+  {
+   "id": "54fff8b",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "6ef29a5",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Online",
+      "header_size": "p",
+      "_css_classes": "gt-eyebrow"
+     },
+     "elements": []
+    },
+    {
+     "id": "4358a55",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Can I have therapy online?",
+      "header_size": "h1",
+      "_css_classes": "gt-h1"
+     },
+     "elements": []
+    },
+    {
+     "id": "7f78817",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<span>By Gototherapy editorial</span>"
+     },
+     "elements": []
+    },
+    {
+     "id": "592ce63",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<span>5 min read</span>"
+     },
+     "elements": []
+    },
+    {
+     "id": "dfa1c7e",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<span>Not a testimonial. Not medical advice.</span>"
+     },
+     "elements": []
+    },
+    {
+     "id": "f6853ac",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<span class=\"placeholder\" style=\"padding:.15rem .5rem\">Clinical reviewer required before publish</span>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "dd51983",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "_css_classes": "gt-section gt-section--tight",
+    "flex_gap": {
+     "column": "20",
+     "row": "20",
+     "unit": "px",
+     "size": 20
+    }
+   },
+   "elements": [
+    {
+     "id": "3fa5a3b",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Yes. Online counselling is therapy by video call or phone with a qualified therapist, and most therapists listed on Gototherapy offer it. The checks are identical to in-person work. It suits people who cannot travel, have unpredictable hours, or find it easier to talk from home, and it needs a private room and a stable connection.</p>",
+      "_css_classes": "gt-answer"
+     },
+     "elements": []
+    },
+    {
+     "id": "c34f9ac",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Is online therapy real therapy?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "5a0a6e3",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>It is the same therapist doing the same work with the same training, supervision and insurance. What changes is the room. Some people expected it to feel like a lesser version and were surprised; others tried it and went back to sitting in the same room as someone. Both are reasonable outcomes and neither says anything about you.</p><p>What matters is that the therapist is who they say they are. Online therapy has made it easier for anyone to put up a website, so the register matters more, not less. Every therapist listed here for online work has had their register entry, insurance and supervision checked by a person, in exactly the same way as for in-person sessions. <a href=\"/how-we-verify/\">How we verify</a>.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "9ebbf65",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Who does online counselling suit?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "b669972",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>People in places with few therapists, or where the one they want to see is an hour away. People with caring responsibilities or shift patterns that make the same journey every week impossible. People who do not want to be seen going into a building in a small town. People who find it easier to say difficult things when they are not being looked at across a room. People who are unwell, or whose mobility makes travel hard.</p><p>It suits some people less well. If your home has no door you can close, if you share thin walls, or if the thing you need to talk about lives in the house you are sitting in, the room can get in the way. Some people simply need the walk there and back.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "d062637",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Video or phone?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "3936081",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Video is closer to being in a room: the therapist can see your face and you can see theirs. Phone removes that, which some people find freeing and others find lonely. Some therapists offer both and will let you switch. Ask.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "d28a0db",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "What changes when the room is a screen?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "5065736",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>You have to make the room. In person, the therapist has done that for you. Online, you need somewhere private for the whole session, which for some people means the car, the garden or a booked meeting room. Headphones keep the therapist's side of the conversation private and make the quiet parts easier to hear.</p><p>The ending is more abrupt. In person there is a corridor, a door and a street. Online, the call ends and you are back in your kitchen with the washing up. Many people find it helps to keep ten minutes clear afterwards, and to not go straight into the next thing.</p><p>Some things are harder to read on a screen. A good therapist will ask more often whether something has landed, and will check at the start that you are somewhere private and able to talk.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "38acc02",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "What do I need?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "d384db0",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>A device with a camera and microphone, a connection that does not drop, somewhere private, and the therapist's chosen video service. Most use a mainstream tool and will send a link. Test it once before the first session so the first ten minutes are not spent on the software. Ask what happens if the connection fails: most therapists will switch to phone rather than lose the session.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "01dc5bb",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "What about the first online session?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "4bb8455",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>It follows the same shape as a first session in a room: what has brought you, how long it has been going on, what you would like to be different, and your questions back. The therapist will usually spend a minute at the start on the practicalities: whether you can hear each other, whether you are somewhere private, and what to do if the call drops. It is worth saying out loud if you are nervous about the format itself. Most people are, the first time, and it passes quickly.</p><p>Some people find it easier to look away from the screen when they are saying something difficult. That is allowed. You do not owe the camera eye contact, and a therapist who works online will know that.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "4433593",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Is it confidential?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "fde017d",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>The therapist's obligations are the same. What you control is your end: who can hear you, whether the device is shared, and whether the call is recorded, which it should not be without your agreement. Ask the therapist what service they use and why.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "4707b72",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Can I mix online and in person?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "fcdaf17",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Often, yes. Many therapists who have a room also work online, and will let you move between the two as your circumstances change: a run of online sessions during a busy period at work, then back to the room. Some people start online because it is less daunting and move to in person once they have decided to stay. Ask what the therapist offers and whether they are happy to switch. A profile on Gototherapy shows both formats where a therapist offers both.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "1e71562",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "What if I cannot afford private therapy?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "82a2a2d",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>In England, NHS Talking Therapies services offer some of their support online and by phone, and you can refer yourself without a GP through the NHS website. Elsewhere in the UK, your GP is the usual route and can tell you what is offered locally. Waiting times vary by area.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "92e7459",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "What if online is not working?",
+      "header_size": "h2",
+      "_css_classes": "gt-h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "da3d51f",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Say so. It may be the format, it may be the fit, and it may be both. Some therapists offer in-person sessions too and will move you across. If not, you are allowed to look for somebody else, and the search can be filtered to in-person only. <a href=\"/stories/how-do-i-know-if-therapy-is-working/\">How to tell whether therapy is working</a>.</p><p>When you are ready, <a href=\"/find-a-therapist/?online=1\">the online filter</a> shows every verified therapist who works by video or phone, wherever you are in the UK.</p>",
+      "_css_classes": "gt-prose"
+     },
+     "elements": []
+    },
+    {
+     "id": "35191a1",
+     "elType": "widget",
+     "widgetType": "image",
+     "settings": {
+      "image": {
+       "url": "https://aririkushimeikito.github.io/gototheraphy/assets/images/desk-laptop-candle-1100.jpg",
+       "id": 0,
+       "alt": "A desk seen from above with an open laptop, a notebook, a small plant and a lit candle",
+       "source": "library"
+      },
+      "image_size": "full",
+      "caption_source": "none",
+      "_css_classes": "gt-photo gt-photo--wide gt-photo--wide"
+     },
+     "elements": []
+    },
+    {
+     "id": "36c576d",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Read next",
+      "header_size": "p",
+      "_css_classes": "gt-eyebrow"
+     },
+     "elements": []
+    },
+    {
+     "id": "ae696fa",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "_css_classes": "gt-row gt-grid",
+      "flex_direction_tablet": "column",
+      "flex_direction_mobile": "column",
+      "flex_align_items": "center",
+      "flex_gap": {
+       "column": "48",
+       "row": "32",
+       "unit": "px",
+       "size": 48
+      },
+      "flex_gap_tablet": {
+       "column": "32",
+       "row": "32",
+       "unit": "px",
+       "size": 32
+      }
+     },
+     "elements": [
+      {
+       "id": "dd24221",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 33.33
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "a78a71c",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "_css_classes": "gt-card",
+          "flex_gap": {
+           "column": "20",
+           "row": "20",
+           "unit": "px",
+           "size": 20
+          }
+         },
+         "elements": [
+          {
+           "id": "8e27e07",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Online counselling",
+            "header_size": "h3",
+            "_css_classes": "gt-h3",
+            "link": {
+             "url": "/online-counselling/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "c36d29b",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Who it suits and how to set it up.</p>",
+            "_css_classes": "gt-soft"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "123a717",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 33.33
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "42fd405",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "_css_classes": "gt-card",
+          "flex_gap": {
+           "column": "20",
+           "row": "20",
+           "unit": "px",
+           "size": 20
+          }
+         },
+         "elements": [
+          {
+           "id": "683cf86",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "What happens in a first therapy session?",
+            "header_size": "h3",
+            "_css_classes": "gt-h3",
+            "link": {
+             "url": "/stories/what-happens-in-a-first-therapy-session/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "3fe92f4",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>What the first hour is for.</p>",
+            "_css_classes": "gt-soft"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "7041b29",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "_css_classes": "gt-col",
+        "flex_gap": {
+         "column": "20",
+         "row": "20",
+         "unit": "px",
+         "size": 20
+        },
+        "width": {
+         "unit": "%",
+         "size": 33.33
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "74833c2",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "_css_classes": "gt-card",
+          "flex_gap": {
+           "column": "20",
+           "row": "20",
+           "unit": "px",
+           "size": 20
+          }
+         },
+         "elements": [
+          {
+           "id": "8b5bd85",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "How we verify",
+            "header_size": "h3",
+            "_css_classes": "gt-h3",
+            "link": {
+             "url": "/how-we-verify/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "ee5042d",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Register, insurance, supervision, identity.</p>",
+            "_css_classes": "gt-soft"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "4bb7840",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"note-panel article-next\"><p class=\"note-panel__title\">If you need help now</p><p>Gototherapy is a directory, not an emergency service. If you are in immediate danger call 999. Otherwise see <a href=\"/crisis/\">urgent support</a>.</p></div>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ },
+ "version": "0.4",
+ "title": "Can I have therapy online? | Gototherapy",
+ "type": "page"
+}
