@@ -5,7 +5,8 @@
    ========================================================================== */
 
 /* ---- Utility / auth pages ---- */
-.auth { min-height: calc(100vh - 4.5rem); display: grid; align-items: start; padding-block: clamp(2.5rem, 7vw, 5rem); }
+.auth { min-height: calc(100vh - 4.5rem); display: grid; align-items: start; padding-block: clamp(2.5rem, 7vw, 5rem); background: var(--paper-deep); }
+.auth__box { background: var(--surface); border: 1px dashed var(--navy); padding: clamp(1.5rem, 4vw, 2.5rem); border-radius: var(--r-card); }
 .auth__box { width: 100%; max-width: 28rem; margin-inline: auto; }
 .auth__box .h2 { max-width: none; }
 .auth__box .lead { margin-top: .75rem; }
@@ -19,7 +20,7 @@
 .account-nav::-webkit-scrollbar { display: none; }
 .account-nav__link { flex: none; display: inline-flex; align-items: center; gap: .55rem; min-height: var(--tap); padding: .5rem 1rem; border-radius: var(--r-pill); color: var(--ink-soft); text-decoration: none; font-weight: 500; font-size: var(--fs-small); border: 1px solid transparent; }
 .account-nav__link:hover { background: var(--paper-deep); color: var(--ink); }
-.account-nav__link[aria-current="page"] { background: var(--navy); color: var(--on-navy); }
+.account-nav__link[aria-current="page"] { background: var(--clay); color: #fff; }
 .account-nav__link .icon { width: 18px; height: 18px; }
 .account-main { min-width: 0; }
 .account-view { display: none; }
@@ -47,7 +48,7 @@
 .dashboard-card__foot { margin-top: auto; padding-top: .5rem; }
 .dashboard-card--wide { grid-column: 1 / -1; }
 .meter { height: 6px; border-radius: 3px; background: var(--paper-deep); overflow: hidden; }
-.meter__fill { height: 100%; background: var(--slate); border-radius: 3px; transition: width 600ms var(--ease); }
+.meter__fill { height: 100%; background: var(--clay); border-radius: 3px; transition: width 600ms var(--ease); }
 
 /* ---- Availability grid (account) ---- */
 .avail-grid { display: grid; gap: .5rem; }
@@ -62,7 +63,7 @@
 .timeline { list-style: none; margin: 0; padding: 0; border-left: 1px solid var(--line); }
 .timeline__item { position: relative; padding: 0 0 1.25rem 1.5rem; }
 .timeline__item::before { content: ""; position: absolute; left: -5px; top: .45rem; width: 9px; height: 9px; border-radius: 50%; background: var(--sky); }
-.timeline__item--ok::before { background: var(--slate); }
+.timeline__item--ok::before { background: var(--clay); }
 .timeline__item--warn::before { background: var(--clay); }
 .timeline__date { font-size: var(--fs-meta); color: var(--ink-mute); margin: 0; }
 .timeline__text { margin: .15rem 0 0; font-size: var(--fs-small); }
@@ -102,11 +103,11 @@
 }
 
 /* ---- Therapist profile ---- */
-.profile-hero { padding-block: clamp(2rem, 5vw, 3.5rem) clamp(1.5rem, 4vw, 2.5rem); }
+.profile-hero { position: relative; padding-block: clamp(3rem, 6vw, 4.5rem) clamp(2rem, 4vw, 3rem); }
 .profile-hero__grid { display: grid; gap: 1.5rem; grid-template-columns: minmax(0, 1fr); align-items: start; }
 .profile-hero__grid > * { min-width: 0; }
 .profile-hero__id { display: flex; gap: 1.25rem; align-items: flex-start; }
-.profile-hero__name { font-size: clamp(2rem, 1.4rem + 2.6vw, 3.4rem); letter-spacing: -.035em; max-width: none; }
+.profile-hero__name { font-size: clamp(1.9rem, 1.4rem + 2vw, 3rem); letter-spacing: 0; max-width: none; }
 .profile-hero__role { margin: .5rem 0 0; color: var(--ink-soft); font-size: var(--fs-lead); }
 .profile-hero__meta { margin: .75rem 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; color: var(--ink-mute); font-size: var(--fs-small); }
 .profile-hero__meta li { display: inline-flex; align-items: center; gap: .4rem; }
@@ -133,13 +134,13 @@
 .booking__dates { display: flex; gap: .5rem; overflow-x: auto; padding-bottom: .5rem; scrollbar-width: thin; }
 .booking__date { flex: none; min-width: 4.5rem; min-height: var(--tap); padding: .6rem .5rem; border-radius: var(--r-field); border: 1px solid var(--line); background: var(--surface); text-align: center; cursor: pointer; display: grid; gap: .15rem; font-size: var(--fs-meta); color: var(--ink-soft); }
 .booking__date strong { font-family: var(--font-display); font-size: 1.4rem; font-weight: 400; color: var(--ink); line-height: 1; }
-.booking__date[aria-pressed="true"] { border-color: var(--navy); background: var(--navy); color: var(--on-navy-soft); }
+.booking__date[aria-pressed="true"] { border-color: var(--clay); background: var(--clay); color: #fff; }
 .booking__date[aria-pressed="true"] strong { color: var(--on-navy); }
 .booking__date:disabled { opacity: .45; cursor: not-allowed; }
 .booking__slots { display: grid; gap: .5rem; grid-template-columns: repeat(auto-fill, minmax(5.5rem, 1fr)); }
 .slot { min-height: var(--tap); border-radius: var(--r-input); border: 1px solid var(--line); background: var(--surface); font-size: var(--fs-small); font-weight: 500; color: var(--ink); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: .35rem; }
 .slot:hover { border-color: var(--ink); }
-.slot[aria-pressed="true"], .slot--selected { background: var(--slate); border-color: var(--slate); color: var(--paper); }
+.slot[aria-pressed="true"], .slot--selected { background: var(--clay); border-color: var(--clay); color: #fff; }
 .slot--unavailable, .slot:disabled { color: var(--ink-mute); background: var(--paper-deep); border-color: transparent; text-decoration: line-through; cursor: not-allowed; }
 .slot--pending { border-style: dashed; color: var(--ink-soft); }
 .booking__summary { display: grid; gap: .5rem; padding: 1rem 1.25rem; background: var(--wash); border-radius: var(--r-field); font-size: var(--fs-small); }
@@ -147,7 +148,7 @@
 .booking__legend { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; font-size: var(--fs-meta); color: var(--ink-mute); list-style: none; margin: 0; padding: 0; }
 .booking__legend li { display: inline-flex; align-items: center; gap: .4rem; }
 .booking__legend span { width: 14px; height: 14px; border-radius: 4px; border: 1px solid var(--line); background: var(--surface); }
-.booking__legend .is-selected { background: var(--slate); border-color: var(--slate); }
+.booking__legend .is-selected { background: var(--clay); border-color: var(--clay); }
 .booking__legend .is-unavailable { background: var(--paper-deep); border-color: transparent; }
 .booking__legend .is-pending { border-style: dashed; }
 .booking-list { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
@@ -168,8 +169,8 @@
 @media (min-width: 1024px) { .link-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 
 /* ---- Article ---- */
-.article-head { padding-block: clamp(2.5rem, 6vw, 4.5rem) clamp(1.5rem, 4vw, 2.5rem); }
-.article-head .h1 { max-width: 18ch; font-size: clamp(2.2rem, 1.4rem + 3.6vw, 4.2rem); }
+.article-head { position: relative; padding-block: clamp(3.5rem, 8vw, 6rem) clamp(2.5rem, 5vw, 4rem); }
+.article-head .h1 { max-width: 22ch; font-size: clamp(1.9rem, 1.3rem + 2.4vw, 3.2rem); }
 .article-meta { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; color: var(--ink-mute); font-size: var(--fs-meta); margin-top: 1.5rem; }
 .article-body { padding-bottom: var(--section); }
 .article-body .prose { color: var(--ink); }
@@ -181,10 +182,10 @@
 .article-next { margin-top: 3rem; }
 
 /* ---- Crisis page: scannable, nothing decorative ---- */
-.crisis-block { border: 1px solid var(--line-strong); border-radius: var(--r-card); padding: clamp(1.25rem, 3vw, 2rem); background: var(--surface); }
+.crisis-block { border: 1px dashed var(--navy); border-radius: var(--r-card); padding: clamp(1.25rem, 3vw, 2rem); background: var(--surface); }
 .crisis-block + .crisis-block { margin-top: 1rem; }
 .crisis-block__title { margin: 0 0 .5rem; font-family: var(--font-display); font-size: var(--fs-h3); letter-spacing: -.02em; }
-.crisis-block__contact { font-family: var(--font-display); font-size: clamp(1.8rem, 1.4rem + 1.5vw, 2.6rem); letter-spacing: -.03em; margin: .5rem 0; }
+.crisis-block__contact { font-family: var(--font-display); font-weight: 600; color: var(--clay-ink); font-size: clamp(1.8rem, 1.4rem + 1.5vw, 2.6rem); letter-spacing: 0; margin: .5rem 0; }
 .crisis-block--urgent { border-color: var(--clay); border-width: 2px; }
 .crisis-block p { margin: 0; }
 .crisis-block p + p { margin-top: .5rem; }
@@ -196,4 +197,11 @@
 .legal-updated { font-size: var(--fs-meta); color: var(--ink-mute); }
 
 /* ---- 404 ---- */
-.page-404 { min-height: 60vh; display: grid; align-content: center; }
+.page-404 { min-height: 70vh; display: grid; align-content: center; text-align: center; background: var(--navy) url("../images/hero-room-plants-1100.jpg") center / cover no-repeat; color: var(--on-navy); position: relative; }
+.page-404::before { content: ""; position: absolute; inset: 0; background: var(--plate); }
+.page-404 > * { position: relative; z-index: 1; }
+.page-404 .h1 { color: var(--on-navy); margin-inline: auto; }
+.page-404 .lead { color: var(--on-navy-soft); margin-inline: auto; }
+.page-404 .eyebrow { color: var(--on-navy-soft); }
+.page-404 .hero__actions { justify-content: center; }
+.page-404__code { font-family: var(--font-display); font-weight: 600; font-size: clamp(4rem, 3rem + 6vw, 8rem); line-height: 1; color: var(--clay); margin: 0 0 .5rem; }

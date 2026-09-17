@@ -1,81 +1,83 @@
 /* ==========================================================================
-   Gototherapy — Design tokens (Design System v2.0 "Stone & Ember")
-   Every colour, size and duration used on the site is declared here.
-   Change a value here and the whole site follows.
+   Gototherapy — Design tokens (Psikolog-style re-skin, September 2026)
+   Cool navy and light-blue palette, Lora display type, Lato UI type,
+   square corners. Token NAMES are unchanged from the Stone & Ember build so
+   every component keeps working; only the values changed.
    ========================================================================== */
 
 :root {
   /* ---- Grounds ---- */
-  --paper: #F5F2EC;        /* the page, warm, never grey */
-  --paper-deep: #EBE5DB;   /* alternating bands */
-  --wash: #EFE9DF;         /* note panels, table heads */
-  --surface: #FCFBF8;      /* cards on paper */
+  --paper: #FFFFFF;        /* the page */
+  --paper-deep: #E8F2FA;   /* light-blue alternating bands */
+  --wash: #EEF5FB;         /* note panels, table heads */
+  --surface: #FFFFFF;      /* cards */
 
   /* ---- Ink ---- */
-  --ink: #1F1B17;          /* body and headings    15.31:1 on paper */
-  --ink-soft: #574F46;     /* secondary text        7.20:1 */
-  --ink-mute: #6B6259;     /* tertiary, safe small  5.34:1 */
+  --ink: #0B2C4A;          /* headings and body: navy */
+  --ink-soft: #4A5B6B;     /* secondary text */
+  --ink-mute: #6E7E8D;     /* tertiary */
 
   /* ---- Dark anchor ---- */
-  --navy: #2B2520;         /* panels, footer, CTA blocks (the name is historical) */
-  --on-navy: #F3EFE8;      /* text on anchor       13.20:1 */
-  --on-navy-soft: #CFC6B9; /* secondary on anchor   8.95:1 */
-  --on-navy-mute: #B3A899; /* labels on anchor      6.47:1 */
+  --navy: #0B2C4A;         /* footer bar, CTA bands, primary buttons */
+  --on-navy: #FFFFFF;
+  --on-navy-soft: #C9D8E6;
+  --on-navy-mute: #9DB3C8;
 
   /* ---- Trust and accent ---- */
-  --slate: #3F5545;        /* links and primary buttons 7.24:1 on paper */
-  --slate-deep: #33453A;   /* hover/active for slate fills */
-  --clay: #B4552C;         /* Ember. Fills and marks ONLY. Never text on paper. */
-  --clay-ink: #A34D28;     /* Ember as text          5.15:1 on paper */
-  --sky: #C9BCA9;          /* Warm sand. Decoration only. Never text. */
+  --slate: #0B2C4A;        /* primary buttons */
+  --slate-deep: #071E33;   /* hover */
+  --clay: #1E7BC8;         /* blue accent: fills, marks, eyebrows */
+  --clay-ink: #1A6BB0;     /* blue accent as text (4.6:1 on white) */
+  --sky: #BFD9EE;          /* decoration only */
+  --link: #1A6BB0;
 
-  /* ---- Derived lines (warm-tinted, never neutral black) ---- */
-  --line: rgba(31, 27, 23, 0.12);
-  --line-soft: rgba(31, 27, 23, 0.08);
-  --line-strong: rgba(31, 27, 23, 0.22);
-  --line-on-dark: rgba(243, 239, 232, 0.22);
-  --plate: rgba(43, 37, 32, 0.86); /* caption plate over photography */
+  /* ---- Lines and plates ---- */
+  --line: #D7E3EE;
+  --line-soft: #E6EEF5;
+  --line-strong: #B9CBDC;
+  --line-on-dark: rgba(255, 255, 255, .18);
+  --plate: rgba(11, 44, 74, .82);   /* overlay over photography, measured for white type */
 
   /* ---- Type ---- */
-  --font-display: "Instrument Serif", "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-  --font-ui: "Schibsted Grotesk", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --font-display: "Lora", "Georgia", "Times New Roman", serif;
+  --font-ui: "Lato", "Helvetica Neue", Arial, system-ui, sans-serif;
 
-  --fs-hero: clamp(2.6rem, 1.4rem + 5.4vw, 5.2rem);
-  --fs-h2: clamp(2rem, 1.4rem + 2.6vw, 3.4rem);
-  --fs-h3: clamp(1.31rem, 1.15rem + .7vw, 1.6rem);
-  --fs-lead: clamp(1.06rem, 1rem + .35vw, 1.25rem);
-  --fs-body: clamp(1rem, .97rem + .15vw, 1.06rem);
-  --fs-small: .9375rem;
-  --fs-meta: .8125rem;
+  --fs-hero: clamp(2.1rem, 1.3rem + 3.2vw, 3.4rem);
+  --fs-h2: clamp(1.7rem, 1.25rem + 1.8vw, 2.5rem);
+  --fs-h3: clamp(1.15rem, 1.05rem + .4vw, 1.35rem);
+  --fs-lead: clamp(1rem, .95rem + .3vw, 1.15rem);
+  --fs-body: clamp(.95rem, .93rem + .15vw, 1rem);
+  --fs-small: .9rem;
+  --fs-meta: .8rem;
 
-  --measure-body: 64ch;
-  --measure-lead: 52ch;
-  --measure-h1: 15ch;
-  --measure-h2: 18ch;
+  --measure-body: 66ch;
+  --measure-lead: 60ch;
+  --measure-h1: 20ch;
+  --measure-h2: 24ch;
 
   /* ---- Layout ---- */
-  --wrap: 1220px;
+  --wrap: 1180px;
   --wrap-narrow: 760px;
   --gutter: clamp(1.25rem, 5vw, 3rem);
-  --section: clamp(4rem, 10vw, 8.5rem);
-  --section-tight: clamp(3rem, 7vw, 5.5rem);
+  --section: clamp(3.5rem, 8vw, 6rem);
+  --section-tight: clamp(2.5rem, 6vw, 4rem);
   --stack-1: .5rem;
   --stack-2: 1rem;
   --stack-3: 1.5rem;
   --stack-4: 2.25rem;
-  --stack-5: 3.5rem;
+  --stack-5: 3rem;
 
-  /* ---- Radius ladder ---- */
-  --r-input: 12px;
-  --r-field: 18px;
-  --r-card: 26px;
-  --r-panel: 36px;
-  --r-pill: 999px;
+  /* ---- Radius: square corners ---- */
+  --r-input: 2px;
+  --r-field: 3px;
+  --r-card: 4px;
+  --r-panel: 4px;
+  --r-pill: 3px;
 
-  /* ---- Shadows (three steps only, warm-tinted) ---- */
-  --shadow-s: 0 1px 2px rgba(31, 27, 23, .04), 0 4px 12px rgba(31, 27, 23, .05);
-  --shadow-m: 0 2px 6px rgba(31, 27, 23, .05), 0 14px 32px rgba(31, 27, 23, .09);
-  --shadow-l: 0 6px 18px rgba(31, 27, 23, .07), 0 30px 70px rgba(31, 27, 23, .14);
+  /* ---- Shadows: cool, soft ---- */
+  --shadow-s: 0 1px 2px rgba(11, 44, 74, .04), 0 4px 12px rgba(11, 44, 74, .05);
+  --shadow-m: 0 2px 6px rgba(11, 44, 74, .06), 0 14px 30px rgba(11, 44, 74, .10);
+  --shadow-l: 0 6px 18px rgba(11, 44, 74, .08), 0 30px 60px rgba(11, 44, 74, .14);
 
   /* ---- Motion ---- */
   --ease: cubic-bezier(.22, .61, .36, 1);
@@ -84,12 +86,13 @@
   --t-stagger: 70ms;
   --t-drift: 30s;
 
-  /* ---- Controls ---- */
   --tap: 44px;
 
-  /* ---- Layers ---- */
   --z-header: 50;
   --z-menu: 60;
   --z-modal: 100;
   --z-toast: 110;
+
+  /* ---- Decorative wave (light) ---- */
+  --wave: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='420' height='120' viewBox='0 0 420 120' fill='none'%3E%3Cpath d='M0 90c40-60 80-60 120 0s80 60 120 0 80-60 120 0 60 40 60 20' stroke='%23FFFFFF' stroke-width='16' stroke-linecap='round' opacity='.55'/%3E%3C/svg%3E");
 }
