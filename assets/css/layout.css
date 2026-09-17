@@ -13,6 +13,9 @@
 .section { padding-block: var(--section); }
 .section--tight { padding-block: var(--section-tight); }
 .section--flush-top { padding-top: 0; }
+/* A section directly after a photo banner keeps its top padding (the flush rule was for the old shared background) */
+.hero--page + .section--flush-top, .article-head + .section--flush-top, .hero--home + .section--flush-top { padding-top: var(--section-tight); }
+.hero--page + .section, .article-head + .section { padding-top: var(--section-tight); }
 .section--band, .section--wash { background: var(--paper-deep); position: relative; overflow: hidden; }
 .section--band::after, .section--wash::after { content: ""; position: absolute; right: -2rem; bottom: -1rem; width: 420px; height: 120px; background: var(--wave) no-repeat; pointer-events: none; opacity: .9; }
 .section--band > *, .section--wash > * { position: relative; z-index: 1; }
