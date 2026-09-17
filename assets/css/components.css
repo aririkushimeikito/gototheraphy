@@ -387,6 +387,7 @@ textarea.form-control { min-height: 7rem; resize: vertical; line-height: 1.55; }
 
 /* ---- Details / accordion ---- */
 .faq { max-width: var(--measure-body); display: grid; gap: .6rem; }
+.faq--centred, .section__head--centred ~ .faq { margin-inline: auto; max-width: 52rem; }
 .faq__item { border: 1px dashed var(--navy); border-radius: var(--r-card); padding: 0 1.1rem; background: var(--surface); }
 .faq__item[open] { background: var(--wash); }
 .faq__q { list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: .9rem 0; font-family: var(--font-ui); font-weight: 700; font-size: var(--fs-small); color: var(--clay-ink); line-height: 1.3; }

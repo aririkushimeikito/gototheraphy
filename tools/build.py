@@ -31,7 +31,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://gototherapy.co.uk"
-SKIP_DIRS = {"assets", "tools", "node_modules", ".git", "data"}
+SKIP_DIRS = {"assets", "tools", "node_modules", ".git", "data", "dist", "elementor", "wordpress"}
 
 def read(p): return Path(p).read_text(encoding="utf-8")
 def write(p, s):
