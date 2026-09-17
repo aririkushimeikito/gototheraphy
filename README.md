@@ -134,4 +134,7 @@ See `BACKEND-INTEGRATION.md` for the full contract. In short:
 
 ## Deployment
 
+**Static web host (cPanel, LiteSpeed, Apache, nginx).** Upload the repository contents to the document root (or point the host's Git deployment at the branch). `.htaccess` provides the 301 redirects, the custom 404, https/non-www enforcement, caching and compression; nginx equivalents are in `SEO-IMPLEMENTATION.md`. Nothing needs to be built on the server: run `python3 tools/build.py` before you commit, and the built pages are what gets deployed.
+
+**GitHub Pages.** 
 The repository is set up for GitHub Pages from `main` (root). `.nojekyll` disables Jekyll processing. GitHub Pages cannot serve 301 redirects, so `/articles/` is a meta-refresh stub with a canonical to `/stories/`; on a host that supports rules, use `_redirects` (Netlify/Cloudflare) or the Apache/nginx snippets in `SEO-IMPLEMENTATION.md`.

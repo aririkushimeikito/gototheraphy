@@ -33,8 +33,8 @@ STEP 3 — BUILD AND VERIFY
 4. Compare against the live site: same page titles, same meta descriptions, same H1 text on the homepage ("A therapist you can actually check."), same header (white bar, wordmark "gototherapy" with "therapy" in blue, bold navy nav: How it works, How we verify, Online counselling, Stories, About; blue "Log in", outlined "Join as a professional", solid navy "Find a therapist"), same navy photo banners, same footer (light-blue columns with chevron links, navy bottom bar). Take screenshots of the homepage, Find a therapist and a profile at 1440 and 375 px and compare them with the live site side by side; any difference is a bug to fix.
 
 STEP 4 — DEPLOY
-- Commit everything to `main` and push. Keep `.nojekyll` at the root. GitHub Pages must be set to deploy from `main` at `/ (root)`.
-- Reply with the live URL of this staging repository's Pages site and a list of anything that differs from the reference, with the reason.
+- Commit everything to `main` and push. If the staging site (https://staging.gototherapy.co.uk/) deploys from this repository through the host's Git deployment or a CI job, push to the branch it watches and confirm the document root receives the repository root (index.html, assets/, data/, .htaccess). If it is GitHub Pages, keep `.nojekyll` at the root and set Pages to deploy from `main` at `/ (root)`.
+- Reply with the staging URL (https://staging.gototherapy.co.uk/ or the Pages URL) and a list of anything that differs from the reference, with the reason.
 
 RULES THAT MUST SURVIVE (the repository already complies)
 - Colours only from the tokens in `assets/css/variables.css`: navy `--ink`/`--navy` #0B2C4A, blue accent `--clay` #1E7BC8 (fills, eyebrows, badges, icons) and `--clay-ink` #1A6BB0 (blue as text), light-blue bands `--paper-deep` #E8F2FA, decoration `--sky` #BFD9EE. Token names are historical; do not rename them.
